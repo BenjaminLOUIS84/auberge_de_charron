@@ -15,7 +15,7 @@ html {
     /* COULEURS */
     --color-primary: rgb(52, 17, 10);
     --color-secondary: white;
-    --color-third: #A5B4FC;
+    --color-third: #12750d;
 
     /* POLICES */
     --police-primary: Verdana, Geneva, Tahoma, sans-serif;
@@ -165,6 +165,8 @@ figcaption {
 
 .illustration {
     width: 100%;
+    margin-bottom: -3px;
+    margin-top: 40px;
 }
 
 .accueil figure {
@@ -176,7 +178,7 @@ figcaption {
 
 .getStart {
     color: var(--color-secondary);
-    background-image: url("images/photo (7).jpg");
+    background-image: url("videos/snackCampingArcy_2025_08_31.mp4");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
@@ -208,6 +210,21 @@ h3{
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     font-size: x-large;
     padding-bottom: 70px;
+}
+
+/* METTRE UNE VIDEO EN ARRIERE PLAN DE LA PAGE D'ACCUEIL */
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 70%;
 }
 
 /* OUTILS///////////////////////////////////////////////////////////////////// */
@@ -440,11 +457,19 @@ h3{
 
 #contact {
     background: var(--color-primary);
-    padding-top: 40px;
+    filter:opacity(80%);
+    padding-top: 10px;
+    padding-bottom: 110px;
 }
 
 #ancre {
     margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.ancre {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .section-contact h2 {
@@ -885,7 +910,7 @@ form p {
 
     .illustration {
         width: 100%;
-        margin-top: 120px;
+        margin-top: 110px;
     }
 
     .sizeS {

@@ -1,0 +1,1059 @@
+/*  Pour reset les marges*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pour rendre tous les liens scrollables*/
+html {
+    scroll-behavior: unset;
+}
+
+/* VARIABLES CSS pour changer les couleurs et la police de tout le site */
+:root {
+    /* COULEURS */
+    --color-primary: rgb(26, 56, 36);
+    --color-secondary: white;
+    --color-third: #A5B4FC;
+
+    /* POLICES */
+    --police-primary: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    width: -webkit-fill-available;
+    /* width: 100%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--police-primary);
+    background: var(--color-secondary);
+    position: fixed;
+    /* Pour faire apparaitre la barre de navigation du haut vers le bas */
+    animation: moveDown 0.6s ease-in-out 0.2s backwards;
+    /* top: -150px; */
+    transition: top 0.3s;
+    /* bottom: 150px; */
+
+}
+
+@keyframes moveDown {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--police-primary);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*HEADER///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+header {
+    background: var(--color-secondary);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.sizeEvent {
+    width: 70%;
+}
+
+
+/* NAVIGATION ////////////////////////////////////////////////////////////////////*/
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+a:hover {
+    opacity: 50%;
+    transition: ease-in-out 0.5s;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+
+.menu {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.meal {
+    border-radius: 10px;
+    display: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: var(--color-third);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+
+figcaption {
+
+    color: var(--color-secondary);
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+
+/* ACCUEIL ////////////////////////////////////////////////////////////////*/
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: var(--color-primary);
+    font-family: var(--police-primary);
+    color: var(--color-secondary);
+    position: static;
+}
+
+.illustration {
+    width: 100%;
+}
+
+.accueil figure {
+    width: 25%;
+}
+
+/* EFFET PARALLAX */
+/*  Pour mettre une image fixe en arrière plan*/
+
+.getStart {
+    color: var(--color-secondary);
+    background-image: url("images/photo (7).jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    filter:brightness(0.5);
+}
+
+.getStart h2 {
+    padding-top: 260px;
+    padding-bottom: 260px;
+}
+
+.eventStart {
+    color: var(--color-secondary);
+    background-image: url("images/event.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    filter:brightness(0.5);
+}
+
+.eventStart h2 {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+
+h3{
+    color: var(--color-secondary) ;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    font-size: x-large;
+    padding-bottom: 70px;
+}
+
+/* OUTILS///////////////////////////////////////////////////////////////////// */
+
+.outils {
+    background: var(--color-primary);
+    color: var(--color-secondary);
+    font-weight: lighter;
+}
+
+.outils p {
+    padding: 20px;
+}
+
+.sizeM {
+    width: 400%;
+    padding-bottom: 40px;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*////////////////////////////////////CSS CAROUSEL////*/
+
+
+.container6 {
+    position: relative;
+    overflow: auto;
+    display: flex;
+    justify-content: left;
+    scroll-snap-type: x mandatory;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container6 img {
+    position: sticky;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    padding-left: 0px;
+
+}
+
+
+/* PORTFOLIO///////////////////////////////////////////////////////////////////// */
+
+
+.wrapperPortfolio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--police-primary);
+    background: var(--color-secondary);
+    animation: moveDown 0.6s ease-in-out 0.2s backwards;
+}
+
+.accueilPortfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--color-primary);
+}
+
+.accueilPortfolio h1 {
+    padding: 10px;
+}
+
+.portfolio-section-photos {
+    background-color: var(--color-secondary);
+}
+
+.portfolio-section-photos h2 {
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.blocProjet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 50%;
+    filter: grayscale(0%);
+    /* border: 1px solid black; */
+    box-shadow: 5px 10px 10px rgb(0, 0, 0);
+    margin-left: 320px;
+}
+
+.photoEvent {
+    width: 100%;
+    filter: grayscale(0%);
+    /* border: 1px solid black; */
+    box-shadow: 5px 10px 10px rgb(0, 0, 0);
+}
+
+.photoGlace {
+    width: 100%;
+    filter: grayscale(0%);
+    /* border: 1px solid black; */
+    box-shadow: 5px 10px 10px rgb(0, 0, 0);
+}
+
+/*  Pour créer un effet d'assombrissement avec informations sur les photos*/
+
+.lien-conteneur-photo {
+    position: relative;
+}
+
+.lien-conteneur-photoEvent {
+    position: relative;
+}
+
+.lien-conteneur-photoGlace {
+    position: relative;
+}
+
+.photo-hover {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    background: black;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+.photoEvent-hover {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    background: black;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 100%;
+    text-align: justify;
+}
+
+.photoGlace-hover {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: white;
+    background: black;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 100%;
+    text-align: justify;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-size: larger;
+    padding: 10px;
+}
+
+.infG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-size: small;
+    padding: 10px;
+}
+
+/*Pour activer l'effet au passage de la souris*/
+.lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+}
+
+.lien-conteneur-photoEvent:hover .photoEvent-hover {
+    display: flex;
+}
+
+.lien-conteneur-photoGlace:hover .photoGlace-hover {
+    display: flex;
+}
+
+.date {
+    color: var(--color-third);
+    font-weight: bold;
+}
+
+/* CONTACT///////////////////////////////////////////////////////////////////// */
+
+#contact {
+    background: var(--color-primary);
+    padding-top: 40px;
+}
+
+#ancre {
+    margin-top: 60px;
+}
+
+.section-contact h2 {
+    color: var(--color-third);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*Pour la mise en forme du formulaire*/
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+.form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+form p {
+    font-size: x-small;
+}
+
+
+/* A PROPOS///////////////////////////////////////////////////////////////////// */
+
+/*Pour faire apparaitre des bordures*/
+.border {
+    color: var(--color-secondary);
+    border-right: 1px solid var(--color-third);
+    border-bottom: 1px solid var(--color-third);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+    text-align: justify;
+}
+
+.border h2 {
+    margin-top: 30px;
+}
+
+.border ul {
+    margin-top: 30px;
+}
+
+.border+div {
+    text-align: center;
+}
+
+.button {
+    margin-top: 40px;
+}
+
+.ancre {
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border: none;
+    border-radius: 50px;
+    color: var(--color-secondary);
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* INFO///////////////////////////////////////////////////////////////////// */
+
+#info {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-secondary);
+    text-align: center;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 20%;
+}
+
+.pied {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acces {
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.ico {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.icoFB {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.icoC10 {
+    width: 20%;
+}
+
+.icoDS {
+    width: 20%;
+}
+
+.frame {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+/*///////////////////////////////////////RESPONSIVE/////////////////////////////////////////*/
+
+/*////////////////INSPECTER - BUREAU - PAGE WEB///////////////////*/
+@media only screen and (max-width: 1196px) {
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    a {
+        font-size: 0.7em;
+        padding: 3px;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .pied {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+        padding: 10px;
+    }
+
+}
+
+/*TABLETTE//////////////////////////////////////////////////////*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .wrapper {
+        width: 120%;
+        margin: auto;
+    }
+
+    /*////////////////////////////ACCUEIL///////////////////////////*/
+
+    a {
+        font-size: 1.5em;
+        padding: 1px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    header {
+        height: 10px;
+    }
+
+    head {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*////////////////////////////MENU BURGER///////////////////////////*/
+
+    .menu {
+        display: none;
+    }
+
+    .wrapperMenu {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--police-primary);
+        background: url("images/photo (11).jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .wrapperMenu .ancre{
+        width: 60%;
+        margin-left: 160px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        height: max-content;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), var(--color-primary));
+        /*Faire apparaitre cet élément*/
+        animation: appear 1s;
+        transition: ease-in-out 0.5s;
+        padding-top: 185px;
+        padding-bottom: 185px;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+    .meal {
+        margin-right: 20px;
+        display: flex;
+    }
+
+    .home {
+        filter: invert();
+    }
+
+    /*//////////////////////////////////////////////////////////////////*/
+
+    .accueil {
+        padding-right: 0px;
+        padding-top: 120px;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .bloc {
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-left: 120px;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    /*////////////////////////////FOOTER///////////////////////////*/
+
+    .reseaux {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .text3 {
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+
+    #info {
+        padding-bottom: 0px;
+    }
+
+    /*////////////////////////////CONTACT///////////////////////////*/
+
+    .section-contact {
+        padding: 50px 20px;
+    }
+
+    .form-nom-email {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .photo {
+        margin-left: 190px;
+    }
+
+    .ico {
+        width: 50%;
+    }
+
+    .photo-hover {
+        left: 190px;
+        top: 0px;
+        bottom: 0px;
+    }
+
+    .border {
+        width: 100%;
+    }
+}
+
+/*TELEPHONE//////////////////////////////////////////////////////*/
+
+@media (min-width: 0) and (max-width: 768px) {
+
+    .wrapper {
+        width: 100%;
+        margin: auto;
+    }
+
+    header {
+        height: 10px;
+    }
+
+    /* Desactiver cette fonction pour que le menu burger fonctionne*/
+
+    html {
+        scroll-behavior: unset;
+    }
+
+    .boutonScroll {
+        display: none;
+    }
+
+    /* Animation Faire apparaitre certains éléments Zoom*/
+
+    @keyframes appear {
+        from {
+            transform: scale(0)
+        }
+
+        to {
+            transform: scale(1)
+        }
+
+    }
+
+    /* Animation Scroller les caroussels automatiquement*/
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-250px * 5));
+        }
+    }
+
+    /*////////////////////////////ACCUEIL///////////////////////////*/
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 35px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .accueil {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding: 10px;
+    }
+
+    .accueil figure {
+        width: 90%;
+    }
+
+    figcaption {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+    .ancre {
+        font-size: 1em;
+        margin-bottom: 40px;
+    }
+
+    .illustration {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .sizeS {
+        width: 50%;
+    }
+
+    .sizeM {
+        width: 110%;
+        padding-bottom: 40px;
+    }
+
+    /*////////////////////////////CONTACT///////////////////////////*/
+
+    .form-nom-email {
+        flex-direction: column;
+        gap: 0;
+    }
+
+   
+    /*////////////////////////////MENU BURGER///////////////////////////*/
+
+    .wrapperMenu {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--police-primary);
+        background: url("images/photo (11).jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .wrapperMenu .ancre{
+        width: 60%;
+        margin-left: 85px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    a {
+        font-size: 1.8em;
+        padding: 1px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        height: max-content;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), var(--color-primary));
+        /*Faire apparaitre cet élément*/
+        animation: appear 1s; 
+        transition: ease-in-out 0.5s; 
+        padding-top: 90px;
+        padding-bottom: 85px;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+
+    .meal {
+        display: flex;
+        cursor: pointer;
+        width: 60%;
+        margin-left: 30px;
+
+    }
+
+    .meal:hover {
+        opacity: 50%;
+        cursor: pointer;
+    }
+
+    .home {
+        width: 60%;
+        padding-top: 40px;
+    }
+
+    .eventStart {
+        color: var(--color-secondary);
+        background-image: url("images/event.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: top;
+        filter:brightness(0.5);
+    }
+    
+
+
+    /*////////////////////////////OUTILS///////////////////////////*/
+
+    .blocPrice {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .inf {
+        font-size: smaller;
+    }
+
+    .photo{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .photo-hover {
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .container6 img {
+        width: 35%;
+    }
+
+    .frame {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .portfolio-section-photos h2 {
+        padding: 10px;
+    }
+
+    /*////////////////////////////FOOTER///////////////////////////*/
+
+    .reseaux {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 50%;
+        margin-right: 0px;
+        gap: 15px;
+    }
+
+    .text3 {
+        margin-bottom: 20px;
+        font-size: 0.5em;
+    }
+
+    #info {
+        padding-bottom: 0px;
+        text-align: left;
+    }
+
+    .ico {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .icoFB {
+        width: 60%;
+        margin-left: 50px;
+    }
+    .icoDS {
+        width: 40%;
+    }
+
+    .sizeEvent {
+        width: 100%;
+    }
+
+
+
+}

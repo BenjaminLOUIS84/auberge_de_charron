@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.html">
+  <link rel="stylesheet" href="carte.html">
+  <link rel="stylesheet" href="a-propos.html">
+  <link rel="stylesheet" href="event.html">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A propos donne des informations sur les gérants du Snack.
+  Cette page permet de télécharger et d'accéder à la Carte">
+  
+  <title>A propos du Snack</title>
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <div class="head">
+      <div class="name">
+        <figure>
+          <img class="size" src="images/Logo_SARL_Louis__4_-removebg-preview.png" alt="Logo de SARL Louis">
+        </figure>
+      </div>
+
+      <!-- SELECTION DE LA LANGUE FR OU EN -->
+      <select aria-label="label for the select" id="language-selector">
+        <option value="fr">FR</option>
+        <option value="en">EN</option>
+      </select>
+
+      <!-- MENU BURGER -->
+      <div class="burger">
+        <a href="menu.html"><img src="./images/burger.png" class="meal" alt="Icône du menu burger" title="Menu"></a>
+      </div>
+
+    </div>
+
+    <header>
+      <nav>
+        <div class="menu">
+          <a href="index.html" id="title" data-fr="Accueil" data-en="Welcome">Accueil</a>
+          <a href="a-propos.html" id="title1" data-fr="A propos" data-en="About">A propos</a>
+          <a href="carte.html" id="title2" data-fr="La Carte" data-en="The Card">La Carte</a>
+          <a href="event.html" id="title3" data-fr="Evènements" data-en="Events">Evènements</a>
+        </div>
+      </nav>
+    </header>
+
+  </div>
+
+  <main>
+    <section class="accueil">
+
+      <h1 id="title4" data-fr="A propos" data-en="About">A propos</h1>
+      <div class="border">
+
+        <figure>
+          <img class="sizeM" src="images/benetval.jpg" alt="Photo de Benjamin et Valérie">
+        </figure>
+
+        <p id="title5"
+          data-fr="Nous sommes Benjamin, Cuisinier depuis 15 ans et Valérie, passionnée de Camping depuis toujours."
+          data-en="We are Benjamin, a cook for 15 years, and Valérie, a lifelong camping enthusiast.">
+          Nous sommes Benjamin, Cuisinier depuis 15 ans et Valérie, passionnée de Camping depuis toujours.
+        </p><br>
+
+        <p id="title6" 
+          data-fr="Afin d'assurer la gérance du Camping de l'Isle Saint Jean et du Snack-Bar à Arcy-Sur-Cure,"
+          data-en="To ensure the management of the Isle Saint Jean campsite and the snack bar in Arcy-Sur-Cure,">
+          Afin d'assurer la gérance du Camping de l'Isle Saint Jean et du Snack-Bar à Arcy-Sur-Cure,
+        </p><br>
+        
+        <p id="title7" 
+          data-fr="nous avons créer une entreprise, la SARL Louis."
+          data-en="We created a company, SARL Louis.">
+          nous avons créer une entreprise, la SARL Louis.
+        </p><br>
+        
+        <p id="title8" 
+          data-fr="Créativité, qualité, et sérénité pour vous !"
+          data-en="Creativity, quality, and serenity for you!">
+          Créativité, qualité, et sérénité pour vous !
+        </p><br>
+        
+        <br><p id="title9" 
+          data-fr="Nous sommes unis pour vous faire vivre un séjour agréable et vous offir une expérience gustative bienveillante."
+          data-en="We are united to make your stay pleasant and offer you a pleasant taste experience.">
+          Nous sommes unis pour vous faire vivre un séjour agréable et vous offir une expérience gustative bienveillante.
+        </p><br>
+
+        <br><p id="title10" 
+          data-fr="Nos prérogatives sont de combiner nos expériences pour prendre soin de vous."
+          data-en="Our prerogatives are to combine our experiences to take care of you.">
+          Nos prérogatives sont de combiner nos expériences pour prendre soin de vous.
+        </p><br>
+
+        <h2 id="title11" data-fr="Nos débuts au Camping en vidéo"
+          data-en="Our beginnings at the campsite in video">Nos débuts au Camping en vidéo
+        </h2>
+
+        <br>
+        
+        <iframe class="frame" width="400" height="315"
+          src="https://www.youtube.com/embed/LEwTG-l5tJw?si=7Y2V1VT88yTLusiJ"
+          title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe> 
+      
+        <br>
+        <h3 id="title12" data-fr="Voici la Carte du Snack et du Bar"
+          data-en="Here is the Snack and Bar Menu">Voici la Carte du Snack et du Bar
+        </h3>
+       
+        <p id="title13" data-fr="Cliquer sur le bouton pour télécharger une version PDF de la Carte"
+          data-en="Click the button to download a PDF version of the Menu">
+          Cliquer sur le bouton pour télécharger une version PDF de la Carte
+        <p>
+       
+      </div>
+
+      <div class="button">
+        <a href="pdf/Carte pour le Snack 2025.pdf" download="Carte Snack 2025" class="ancre" id="title14" data-fr="TELECHARGER LA CARTE"
+        data-en="DOWNLOAD">TELECHARGER LA CARTE</a>
+      </div>
+
+      <div class="button">
+
+        <!--Pour créer un bouton qui renvoie vers une autre page-->
+        <a class="ancre" href="carte.html" id="title15" data-fr="VOIR LA CARTE"
+        data-en="SEE THE MENU">VOIR LA CARTE</a>
+      </div>
+
+    </section>
+
+    <div id="info">
+
+      <div class="pied">
+
+        <figure>
+          <a href=""><img class="size" src="images/Logo_SARL_Louis__4_-removebg-preview.png" alt="Logo de SARL Louis"></a>
+        </figure>
+
+        <div class="reseaux">
+            <a href="https://www.facebook.com/profile.php?id=61575179888249"><img class="icoFB" src="images/facebook.jpg"
+              alt="Lien vers la Page Facebook du Camping de l'Isle Saint Jean" title="Facebook du Camping"></a>
+     
+            <a href="https://www.camping-islesaintjean-arcysurcure.fr/fr/"><img class="ico" src="images/tent_moon_night_camping_camp_icon_196516 (1).png"
+                alt="Lien vers le Site Web du Camping de l'Isle Saint Jean" title="Site Web du Camping"></a>
+          </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

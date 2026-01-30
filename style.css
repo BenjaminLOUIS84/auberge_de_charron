@@ -13,7 +13,7 @@ html {
 /* VARIABLES CSS pour changer les couleurs et la police de tout le site */
 :root {
     /* COULEURS */
-    --color-primary: rgb(26, 56, 36);
+    --color-primary: rgb(52, 17, 10);
     --color-secondary: white;
     --color-third: #A5B4FC;
 
@@ -489,7 +489,7 @@ label {
 }
 
 input[type='submit'] {
-    width: 200px;
+    width: 100px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -581,7 +581,11 @@ form p {
 }
 
 .icoFB {
-    width: 70%;
+    width: 60%;
+    margin-left: 50px;
+}
+.icoFBC {
+    width: 30%;
     margin-left: 50px;
 }
 
@@ -1046,6 +1050,10 @@ form p {
         width: 60%;
         margin-left: 50px;
     }
+    .icoFBC {
+    width: 30%;
+    margin-left: 50px;
+    }
     .icoDS {
         width: 40%;
     }
@@ -1053,7 +1061,5 @@ form p {
     .sizeEvent {
         width: 100%;
     }
-
-
 
 }

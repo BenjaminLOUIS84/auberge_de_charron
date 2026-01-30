@@ -48,7 +48,7 @@
                 $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
                 $entete .= 'Reply-to' . $email;
                 
-                $message = '<h1>Message envoyé depuis la page Contact du Snack du Camping</h1>
+                $message = '<h1>Message envoyé depuis la page Contact Auberge de Charron</h1>
                 
                 <p>
                 <b>Email : </b>' . $email . '<br>
@@ -57,7 +57,7 @@
                 <b>Message : </b>' . html_entity_decode($message) . '
                 </p>';
 
-                $retour = mail('campingarcy@gmail.com', 'Envoi depuis la page Contact', $message, $entete);
+                $retour = mail('benbylouis1984@gmail.com', 'Envoi depuis la page Contact', $message, $entete);
                 
                 if ($retour)
                 echo 

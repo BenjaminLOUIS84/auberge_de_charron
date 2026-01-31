@@ -166,12 +166,12 @@ figcaption {
 .illustration {
     width: 100%;
     margin-bottom: -3px;
-    margin-top: 40px;
 }
 
 .accueil figure {
     width: 25%;
 }
+
 
 /* EFFET PARALLAX */
 /*  Pour mettre une image fixe en arrière plan*/
@@ -463,13 +463,13 @@ h3{
 }
 
 #ancre {
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
 .ancre {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .section-contact h2 {
@@ -557,13 +557,17 @@ form p {
 }
 
 .ancre {
-    background: linear-gradient(#8E86B5, #ACAEED);
+    background: linear-gradient(#349441, #461717);
     border: none;
     border-radius: 50px;
     color: var(--color-secondary);
     padding: 20px 30px;
     display: inline-block;
     font-weight: bold;
+}
+
+#title13 {
+    color: var(--color-third);
 }
 
 /* INFO///////////////////////////////////////////////////////////////////// */

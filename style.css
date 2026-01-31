@@ -77,7 +77,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 5px;
+    padding: 15px;
 }
 
 .name {
@@ -509,7 +510,7 @@ form {
 
 input,
 textarea {
-    padding: 15px;
+    padding: 10px;
     border-radius: 3px;
     border: none;
 }
@@ -655,8 +656,9 @@ form p {
 
     .head {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         text-align: left;
+        padding: 10px;
     }
 
     .pied {
@@ -883,8 +885,10 @@ form p {
         font-size: 1.5em;
         text-align: center;
         padding: 35px;
-        margin-top: 30px;
+        margin-top: 0px;
     }
+
+    
 
     h2 {
         text-align: center;
@@ -1003,8 +1007,9 @@ form p {
     .meal {
         display: flex;
         cursor: pointer;
-        width: 60%;
-        margin-left: 30px;
+        width: 30%;
+        margin-left: 60px;
+        margin-top: 10px;
 
     }
 
@@ -1026,6 +1031,8 @@ form p {
         background-position: top;
         filter:brightness(0.5);
     }
+
+
     
 
 
@@ -1106,6 +1113,10 @@ form p {
 
     .sizeEvent {
         width: 100%;
+    }
+
+    h3{
+        padding-bottom: 40px;
     }
 
 }

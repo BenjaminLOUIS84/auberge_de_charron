@@ -302,6 +302,7 @@ h3{
 
 .accueilPortfolio h1 {
     padding: 10px;
+    color:white;
 }
 
 .portfolio-section-photos {
@@ -313,6 +314,10 @@ h3{
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
+}
+
+.portfolio-section-photos h3{
+    color: var(--color-third);
 }
 
 .blocProjet {

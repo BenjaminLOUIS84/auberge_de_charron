@@ -88,8 +88,9 @@ header {
 }
 
 .size {
-    width: 40%;
-    margin-left: 10px;
+    width: 30%;
+    margin-left: 100px;
+    filter: grayscale(100%);
 }
 
 .sizeEvent {

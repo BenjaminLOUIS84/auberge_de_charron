@@ -622,7 +622,7 @@ form p {
     margin-left: 50px;
 }
 .icoFBC {
-    width: 30%;
+    width: 25%;
     margin-left: 50px;
 }
 
@@ -640,6 +640,16 @@ form p {
     padding-bottom: 30px;
     margin-bottom: 20px;
 }
+
+ .mentions{
+        margin-left: 0px;
+        font-weight: bold;
+    }
+
+.size{
+    margin-left: 0px;
+}
+
 
 /*///////////////////////////////////////RESPONSIVE/////////////////////////////////////////*/
 
@@ -982,6 +992,12 @@ form p {
         padding: 1px;
     }
 
+    .mentions{
+        font-size: 10px;
+        margin-left: 65px;
+        font-weight: bold;
+    }
+
     nav {
         display: flex;
         justify-content: center;
@@ -1105,7 +1121,7 @@ form p {
         margin-left: 50px;
     }
     .icoFBC {
-    width: 30%;
+    width: 40%;
     margin-left: 50px;
     }
     .icoDS {
@@ -1118,6 +1134,11 @@ form p {
 
     h3{
         padding-bottom: 40px;
+    }
+
+    .size{
+        margin-left: 50px;
+        width: 40%;
     }
 
 }

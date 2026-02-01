@@ -460,6 +460,7 @@ h3{
 .date {
     color: var(--color-third);
     font-weight: bold;
+    margin-top: 10px;
 }
 
 /* CONTACT///////////////////////////////////////////////////////////////////// */

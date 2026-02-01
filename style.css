@@ -1051,6 +1051,10 @@ form p {
         filter:brightness(0.5);
     }
 
+    .eventStart h2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
     .getStart h2 {
     padding-top: 0px;
@@ -1144,6 +1148,10 @@ form p {
     .size{
         margin-left: 50px;
         width: 40%;
+    }
+
+    #contact {
+        padding-bottom: 0px;
     }
 
 }

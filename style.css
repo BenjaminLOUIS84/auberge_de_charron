@@ -151,6 +151,11 @@ figcaption {
     padding-bottom: 60px;
 }
 
+#wrapper p{
+    color: var(--color-third);
+    padding-bottom: 20px;
+}
+
 /* ACCUEIL ////////////////////////////////////////////////////////////////*/
 
 .accueil {
@@ -369,6 +374,10 @@ h3{
     position: relative;
 }
 
+.lien-conteneur-photoCarte {
+    position: relative;
+}
+
 .photo-hover {
     position: absolute;
     top: 0px;
@@ -379,8 +388,33 @@ h3{
     align-items: center;
     justify-content: left;
     font-size: small;
-    color: white;
+    color: var(--color-secondary) ;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    font-size: x-large;
     background: black;
+    opacity: 90%;
+    display: none;
+    transition: .5s ease-in-out;
+    width: 50%;
+    text-align: justify;
+}
+
+.photoCarte-hover{
+    background-image: url("images/photoDuBarNuit.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: small;
+    color: var(--color-secondary) ;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    font-size: x-large;
     opacity: 90%;
     display: none;
     transition: .5s ease-in-out;
@@ -456,6 +490,11 @@ h3{
 .lien-conteneur-photoGlace:hover .photoGlace-hover {
     display: flex;
 }
+
+.lien-conteneur-photoCarte:hover .photoCarte-hover {
+    display: flex;
+}
+
 
 .date {
     color: var(--color-third);

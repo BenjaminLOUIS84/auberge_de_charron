@@ -186,7 +186,7 @@ figcaption {
 
 .getStart {
     color: var(--color-secondary);
-    background-image: url("videos/intérieurSalle.mp4");
+    background-image: url("videos/videoDeLaSalle.mp4");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
@@ -200,7 +200,7 @@ figcaption {
 
 .eventStart {
     color: var(--color-secondary);
-    background-image: url("images/event.jpg");
+    background-image: url("images/barEvent.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
@@ -314,7 +314,6 @@ h3{
 
 .portfolio-section-photos {
     background-color: var(--color-secondary);
-   
 }
 
 .portfolio-section-photos h2 {
@@ -334,7 +333,7 @@ h3{
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -347,10 +346,11 @@ h3{
 }
 
 .photoEvent {
-    width: 100%;
+    width: 50%; 
     filter: grayscale(0%);
     /* border: 1px solid black; */
     box-shadow: 5px 10px 10px rgb(0, 0, 0);
+    margin-left: 320px;
 }
 
 .photoGlace {
@@ -422,7 +422,8 @@ h3{
     text-align: justify;
 }
 
-.photoEvent-hover {
+
+.photoGlace-hover {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -441,7 +442,7 @@ h3{
     text-align: justify;
 }
 
-.photoGlace-hover {
+.photoEvent-hover {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -456,7 +457,8 @@ h3{
     opacity: 90%;
     display: none;
     transition: .5s ease-in-out;
-    width: 100%;
+    width: 50%;
+    margin-left: 320px;
     text-align: justify;
 }
 
@@ -1083,24 +1085,39 @@ form p {
 
     .eventStart {
         color: var(--color-secondary);
-        background-image: url("images/event.jpg");
+        background-image: url("images/photoDuBarNuit.jpg");
         background-attachment: fixed;
         background-size: cover;
         background-position: top;
         filter:brightness(0.5);
     }
 
-    .eventStart h2 {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+        .eventStart h2 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
-    .getStart h2 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+        .getStart h2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    /*////////////////////////////EVENTS///////////////////////////*/
 
 
+    .photoEvent {
+        width: 100%; 
+        filter: grayscale(0%);
+        /* border: 1px solid black; */
+        box-shadow: 5px 10px 10px rgb(0, 0, 0);
+        margin-left: 0px;
+    }
+    
+    .photoEvent-hover{
+    width: 100%;
+    margin-left: 0px;
+    }
+
+    
     /*////////////////////////////OUTILS///////////////////////////*/
 
     .blocPrice {

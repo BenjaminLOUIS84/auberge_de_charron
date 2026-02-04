@@ -151,7 +151,7 @@ figcaption {
     padding-bottom: 60px;
 }
 
-#wrapper p{
+#wrapper p {
     color: var(--color-third);
     padding-bottom: 20px;
 }
@@ -190,7 +190,7 @@ figcaption {
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
-    filter:brightness(0.5);
+    filter: brightness(0.5);
 }
 
 .getStart h2 {
@@ -204,7 +204,7 @@ figcaption {
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
-    filter:brightness(0.5);
+    filter: brightness(0.5);
 }
 
 .eventStart h2 {
@@ -213,8 +213,8 @@ figcaption {
 }
 
 
-h3{
-    color: var(--color-secondary) ;
+h3 {
+    color: var(--color-secondary);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     font-size: x-large;
     padding-bottom: 70px;
@@ -234,6 +234,7 @@ h3{
     z-index: -1;
     opacity: 70%;
 }
+
 
 /* OUTILS///////////////////////////////////////////////////////////////////// */
 
@@ -309,11 +310,14 @@ h3{
 
 .accueilPortfolio h1 {
     padding: 10px;
-    color:white;
+    color: white;
 }
 
 .portfolio-section-photos {
+
     background-color: var(--color-secondary);
+   
+
 }
 
 .portfolio-section-photos h2 {
@@ -323,7 +327,7 @@ h3{
     text-align: center;
 }
 
-.portfolio-section-photos h3{
+.portfolio-section-photos h3 {
     color: var(--color-third);
 }
 
@@ -346,7 +350,7 @@ h3{
 }
 
 .photoEvent {
-    width: 50%; 
+    width: 50%;
     filter: grayscale(0%);
     /* border: 1px solid black; */
     box-shadow: 5px 10px 10px rgb(0, 0, 0);
@@ -388,7 +392,7 @@ h3{
     align-items: center;
     justify-content: left;
     font-size: small;
-    color: var(--color-secondary) ;
+    color: var(--color-secondary);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     font-size: x-large;
     background: black;
@@ -399,7 +403,7 @@ h3{
     text-align: justify;
 }
 
-.photoCarte-hover{
+.photoCarte-hover {
     background-image: url("images/photoDuBarNuit.jpg");
     background-size: cover;
     background-position: center;
@@ -412,7 +416,7 @@ h3{
     align-items: center;
     justify-content: left;
     font-size: small;
-    color: var(--color-secondary) ;
+    color: var(--color-secondary);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     font-size: x-large;
     opacity: 90%;
@@ -509,7 +513,7 @@ h3{
 
 #contact {
     background: var(--color-primary);
-    filter:opacity(80%);
+    filter: opacity(80%);
     padding-top: 10px;
     padding-bottom: 110px;
 }
@@ -665,6 +669,7 @@ form p {
     width: 60%;
     margin-left: 50px;
 }
+
 .icoFBC {
     width: 25%;
     margin-left: 50px;
@@ -685,12 +690,12 @@ form p {
     margin-bottom: 20px;
 }
 
- .mentions{
-        margin-left: 0px;
-        font-weight: bold;
-    }
+.mentions {
+    margin-left: 0px;
+    font-weight: bold;
+}
 
-.size{
+.size {
     margin-left: 0px;
 }
 
@@ -722,7 +727,7 @@ form p {
         text-align: left;
         padding: 10px;
     }
-   
+
 
 }
 
@@ -776,7 +781,7 @@ form p {
         background-repeat: no-repeat;
     }
 
-    .wrapperMenu .ancre{
+    .wrapperMenu .ancre {
         width: 60%;
         margin-left: 160px;
         margin-bottom: 50px;
@@ -851,9 +856,9 @@ form p {
         padding-bottom: 0px;
     }
 
-     
 
-    
+
+
 
     /*////////////////////////////CONTACT///////////////////////////*/
 
@@ -884,7 +889,7 @@ form p {
         width: 100%;
     }
 
-    .mentions{
+    .mentions {
         margin-left: 0px;
         font-weight: bold;
         font-size: 12px;
@@ -955,7 +960,7 @@ form p {
         margin-top: 0px;
     }
 
-    
+
 
     h2 {
         text-align: center;
@@ -994,7 +999,7 @@ form p {
         margin-top: 0px;
     }
 
-    .container6{
+    .container6 {
         height: 50px;
     }
 
@@ -1007,7 +1012,7 @@ form p {
         padding-bottom: 40px;
     }
 
-    .head{
+    .head {
         height: 50px;
     }
 
@@ -1019,9 +1024,9 @@ form p {
     }
 
     .button {
-    margin-top: 0px;
+        margin-top: 0px;
     }
-   
+
     /*////////////////////////////MENU BURGER///////////////////////////*/
 
     .wrapperMenu {
@@ -1036,7 +1041,7 @@ form p {
         background-repeat: no-repeat;
     }
 
-    .wrapperMenu .ancre{
+    .wrapperMenu .ancre {
         width: 100%;
         margin-left: 0px;
         margin-bottom: 50px;
@@ -1048,7 +1053,7 @@ form p {
         padding: 1px;
     }
 
-    .mentions{
+    .mentions {
         font-size: 10px;
         margin-left: 65px;
         font-weight: bold;
@@ -1060,8 +1065,8 @@ form p {
         height: max-content;
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), var(--color-primary));
         /*Faire apparaitre cet élément*/
-        animation: appear 1s; 
-        transition: ease-in-out 0.5s; 
+        animation: appear 1s;
+        transition: ease-in-out 0.5s;
         padding-top: 90px;
         padding-bottom: 85px;
     }
@@ -1102,35 +1107,36 @@ form p {
         background-attachment: fixed;
         background-size: cover;
         background-position: top;
-        filter:brightness(0.5);
+        filter: brightness(0.5);
     }
 
-        .eventStart h2 {
+    .eventStart h2 {
         padding-top: 60px;
         padding-bottom: 60px;
     }
 
-        .getStart h2 {
+    .getStart h2 {
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
     /*////////////////////////////EVENTS///////////////////////////*/
 
 
     .photoEvent {
-        width: 100%; 
+        width: 100%;
         filter: grayscale(0%);
         /* border: 1px solid black; */
         box-shadow: 5px 10px 10px rgb(0, 0, 0);
         margin-left: 0px;
     }
-    
-    .photoEvent-hover{
-    width: 100%;
-    margin-left: 0px;
+
+    .photoEvent-hover {
+        width: 100%;
+        margin-left: 0px;
     }
 
-    
+
     /*////////////////////////////OUTILS///////////////////////////*/
 
     .blocPrice {
@@ -1142,7 +1148,7 @@ form p {
         font-size: smaller;
     }
 
-    .photo{
+    .photo {
         width: 100%;
         margin-left: 0px;
     }
@@ -1198,10 +1204,12 @@ form p {
         width: 60%;
         margin-left: 50px;
     }
+
     .icoFBC {
-    width: 40%;
-    margin-left: 50px;
+        width: 40%;
+        margin-left: 50px;
     }
+
     .icoDS {
         width: 70%;
     }
@@ -1214,11 +1222,11 @@ form p {
         width: 100%;
     }
 
-    h3{
+    h3 {
         padding-bottom: 40px;
     }
 
-    .size{
+    .size {
         margin-left: 50px;
         width: 40%;
     }

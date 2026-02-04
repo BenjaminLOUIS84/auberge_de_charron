@@ -721,8 +721,10 @@ form p {
         text-align: left;
         padding: 10px;
     }
+   
 
 }
+
 
 /*TABLETTE//////////////////////////////////////////////////////*/
 
@@ -848,6 +850,10 @@ form p {
         padding-bottom: 0px;
     }
 
+     
+
+    
+
     /*////////////////////////////CONTACT///////////////////////////*/
 
     .section-contact {
@@ -875,6 +881,12 @@ form p {
 
     .border {
         width: 100%;
+    }
+
+    .mentions{
+        margin-left: 0px;
+        font-weight: bold;
+        font-size: 12px;
     }
 }
 

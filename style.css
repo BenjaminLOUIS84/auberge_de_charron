@@ -316,7 +316,7 @@ h3 {
 .portfolio-section-photos {
 
     background-color: var(--color-secondary);
-   
+
 
 }
 
@@ -347,6 +347,10 @@ h3 {
     /* border: 1px solid black; */
     box-shadow: 5px 10px 10px rgb(0, 0, 0);
     margin-left: 320px;
+}
+
+.photoInfos {
+    width: 50%;
 }
 
 .photoEvent {
@@ -1152,6 +1156,11 @@ form p {
         width: 100%;
         margin-left: 0px;
     }
+
+    .photoInfos {
+    width: 100%;
+   
+}
 
     .photo-hover {
         top: 0px;

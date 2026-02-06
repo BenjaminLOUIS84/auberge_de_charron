@@ -508,7 +508,7 @@ h3 {
 
 
 .date {
-    color: var(--color-third);
+    color: var(--color-secondary);
     font-weight: bold;
     margin-top: 10px;
 }

@@ -186,7 +186,7 @@ figcaption {
 
 .getStart {
     color: var(--color-secondary);
-    background-image: url("videos/intérieurSalle.mp4");
+    background-image: url("videos/videoDeLaSalle.mp4");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;

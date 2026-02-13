@@ -2,59 +2,72 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.html">
-    <link rel="stylesheet" href="carte.html">
-    <link rel="stylesheet" href="a-propos.html">
-    <link rel="stylesheet" href="event.html">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="carte.html">
+  <link rel="stylesheet" href="a-propos.html">
+  <link rel="stylesheet" href="event.html">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mode responsive Menu burger permet d'accéder à la page A propos de l'Auberge de Charron, 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mode responsive Menu burger permet d'accéder à la page A propos de l'Auberge de Charron, 
     d'accéder à la Carte du Restaurant et de retourner à la page d'accueil. ">
 
-    <title>MENU</title>
+  <title>MENU</title>
 </head>
 
 <body>
-    <div class="wrapperMenu">
-        <nav>
-          <div id="menu">
-              
-            <!-- SELECTION DE LA LANGUE FR OU EN -->
-            <select aria-label="label for the select" id="language-selector">
-              <option value="fr">FR</option>
-              <option value="en">EN</option>
-            </select>
+  <div class="wrapperMenu">
+    <nav>
+      <div id="menu">
 
-            <a href="index.html"id="title0" data-fr="Accueil" data-en="Welcome">Accueil</a>
-            <a href="a-propos.html" id="title1" data-fr="A propos" data-en="About">A propos</a>
-            <a href="carte.html" id="title2" data-fr="La Carte" data-en="The Card">La Carte</a>
-            <a href="event.html" id="title3" data-fr="Evènements" data-en="Events">Evènements</a>
-            <a href="/index.html#contact" class="ancre" id="title4" data-fr="Réserver une Table" data-en="Book a Table">Réservez une Table</a>
-          </div>
+        <!--Afficher la Date et l'Heure-->
+        <section class="heure">
+          <div id="horloge"></div><br>
+        </section>
 
-        </nav>
-        
-        <div id="info">
-          <div class="pied">
-              
-           <div class="reseaux">
-              <a href="https://www.facebook.com/profile.php?id=61587355955070"><img class="icoFBC" src="images/facebook.jpg"
-                alt="Lien vers la Page Facebook de l'Auberge de Charron en Creuse" title="Facebook de l'Auberge de Charron en Creuse">
-              </a>
-            </div>
-            <a href="mentions.html" id="title3.1" class="mentions" data-fr="Mentions Légales" data-en="Legal Notices">Mentions Légales</a>
-            <figure>
-                <a href="https://maps.app.goo.gl/HjRMWjqvW8Gmx1W86"><img class="size" src="images/Maps.jpg" alt="Logo de Google Maps" title="Itinéraire GPS vers l'Auberge"></a>
-            </figure>
 
-          </div>
-      
-        </div>
+        <!-- SELECTION DE LA LANGUE FR OU EN -->
+        <select aria-label="label for the select" id="language-selector">
+          <option value="fr">FR</option>
+          <option value="en">EN</option>
+        </select>
+
+        <a href="index.html" id="title0" data-fr="Accueil" data-en="Welcome">Accueil</a>
+        <a href="a-propos.html" id="title1" data-fr="A propos" data-en="About">A propos</a>
+        <a href="carte.html" id="title2" data-fr="La Carte" data-en="The Card">La Carte</a>
+        <a href="event.html" id="title3" data-fr="Evènements" data-en="Events">Evènements</a>
+
+      </div>
+    </nav>
+    <a href="/index.html#contact" class="ancre" id="title4" data-fr="Réserver une Table" data-en="Book a Table">Réservez
+      une Table</a>
+  </div>
+
+  </nav>
+
+  <div id="info">
+    <div class="pied">
+
+      <div class="reseaux">
+        <a href="https://www.facebook.com/profile.php?id=61587355955070"><img class="icoFBC" src="images/facebook.jpg"
+            alt="Lien vers la Page Facebook de l'Auberge de Charron en Creuse"
+            title="Facebook de l'Auberge de Charron en Creuse">
+        </a>
+      </div>
+      <a href="mentions.html" id="title3.1" class="mentions" data-fr="Mentions Légales" data-en="Legal Notices">Mentions
+        Légales</a>
+      <figure>
+        <a href="https://maps.app.goo.gl/HjRMWjqvW8Gmx1W86"><img class="size" src="images/Maps.jpg"
+            alt="Logo de Google Maps" title="Itinéraire GPS vers l'Auberge"></a>
+      </figure>
+
     </div>
-    <script src="js/script.js"></script>
+
+  </div>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

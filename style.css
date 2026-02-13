@@ -116,12 +116,26 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 60px;
+    height: 80px;
+    margin-top: 20px;
 }
+
+#horloge {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: var(--color-third);
+    /* font-weight: bold; */
+    margin-top: 5px;
+    padding-bottom: 35px;
+
+}
+
+
 
 .menu {
     font-size: 1.2em;
     font-weight: bold;
+    padding-top: 40px;
 }
 
 .meal {
@@ -179,6 +193,26 @@ figcaption {
 .accueil figure {
     width: 25%;
 }
+
+/* TABLEAU */
+
+.section-menu {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    /* border-radius: 10px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
 
 
 /* EFFET PARALLAX */
@@ -1159,9 +1193,9 @@ form p {
     }
 
     .photoInfos {
-    width: 100%;
-   
-}
+        width: 100%;
+
+    }
 
     .photo-hover {
         top: 0px;

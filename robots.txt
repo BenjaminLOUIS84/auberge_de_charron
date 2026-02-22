@@ -1,0 +1,3 @@
+User-agent:*
+Allow:/
+Sitemap: https://aubergedecharron.benjaminlouis.eu/sitemap.xml

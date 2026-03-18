@@ -18,6 +18,45 @@
     Découvrez une cuisine authentique et chaleureuse dans un cadre unique. 
     Réservez votre table dès maintenant !">
 
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "L'Auberge de Charron",
+  "image": "https://aubergedecharron.benjaminlouis.eu/images/logoAubergeDeCharron.jpg",
+  "@id": "https://aubergedecharron.benjaminlouis.eu",
+  "url": "https://aubergedecharron.benjaminlouis.eu",
+  "telephone": "+33962185673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4 Rue de la Mairie",
+    "addressLocality": "Charron",
+    "postalCode": "23700",
+    "addressRegion": "Nouvelle-Aquitaine",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 46.060468677693414,
+    "longitude": 2.5624787608538253
+  },
+  "hasMenu": "https://aubergedecharron.benjaminlouis.eu/carte.html",
+  "servesCuisine": "Française, Terroir",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Saturday", "Sunday"
+      ],
+      "opens": "11:30",
+      "closes": "21:30"
+    }
+  ],
+  "acceptsReservations": "True"
+}
+</script>
+
+
   <title>Auberge de Charron | Cuisine Authentique & Convivialité</title>
 
 </head>
@@ -118,12 +157,13 @@
         Table</a>
     </section>
 
-    
+
 
     <!--Pour créer un formulaire de contact-->
     <section id="contact" class="section-contact">
       <h2 id="ancre" data-fr="Votre réservation" data-en="Your reservation">Votre réservation</h2><br>
-      <br><form method="post" action="mail.php">
+      <br>
+      <form method="post" action="mail.php">
         <div class="form-nom-email">
           <div class="form-column">
             <label for="nom" id="title11" data-fr="Votre nom" data-en="Your name">Votre nom</label>
@@ -159,8 +199,7 @@
           data-en="Please specify the number of people and the desired time (lunch or evening)">
           Merci de préciser le nombre de personnes<br> et le moment désiré (midi ou soir)</p><br>
 
-        <textarea name="message" id="mess" rows=5 required maxlength="500"
-          title="500 caractères max"></textarea>
+        <textarea name="message" id="mess" rows=5 required maxlength="500" title="500 caractères max"></textarea>
 
         <input type="submit" value="OK" class="ancre">
       </form>

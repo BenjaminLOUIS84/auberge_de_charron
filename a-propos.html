@@ -13,7 +13,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Découvrez l'histoire de l'Auberge de Charron,
     notre passion pour la gastronomie et l'équipe qui vous accueille avec le sourire au quotidien">
-  
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "L'Auberge de Charron",
+  "image": "https://aubergedecharron.benjaminlouis.eu/images/logoAubergeDeCharron.jpg",
+  "@id": "https://aubergedecharron.benjaminlouis.eu",
+  "url": "https://aubergedecharron.benjaminlouis.eu",
+  "telephone": "+33962185673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4 Rue de la Mairie",
+    "addressLocality": "Charron",
+    "postalCode": "23700",
+    "addressRegion": "Nouvelle-Aquitaine",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 46.060468677693414,
+    "longitude": 2.5624787608538253
+  },
+  "hasMenu": "https://aubergedecharron.benjaminlouis.eu/carte.html",
+  "servesCuisine": "Française, Terroir",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Saturday", "Sunday"
+      ],
+      "opens": "11:30",
+      "closes": "21:30"
+    }
+  ],
+  "acceptsReservations": "True"
+}
+</script>
+
   <title>A propos de l'Auberge</title>
 </head>
 
@@ -21,7 +59,7 @@
   <div id="wrapper">
 
     <div class="head">
-     
+
 
       <!-- SELECTION DE LA LANGUE FR OU EN -->
       <select aria-label="label for the select" id="language-selector">
@@ -57,75 +95,74 @@
       <div class="border">
 
         <figure>
-          <img class="sizeM" src="images/benetval.jpg" alt="Photo de Benjamin et Valérie LOUIS, les Gérants de la SARL Louis">
+          <img class="sizeM" src="images/benetval.jpg"
+            alt="Photo de Benjamin et Valérie LOUIS, les Gérants de la SARL Louis">
         </figure>
 
         <p id="title5"
           data-fr="Nous sommes Benjamin et Valérie un couple passionné par la restauration et ayant le goût du travail bien fait."
           data-en="We are Benjamin and Valérie, a couple passionate about the restaurant business and with a taste for a job well done.">
-          <small>Nous sommes Benjamin et Valérie un couple passionné par la restauration et ayant le goût du travail bien fait.</small>
+          <small>Nous sommes Benjamin et Valérie un couple passionné par la restauration et ayant le goût du travail
+            bien fait.</small>
         </p><br>
 
-        <p id="title6" 
+        <p id="title6"
           data-fr=" Nous avons choisi de vous proposer une cuisine traditionnelle française reposant sur des produits locaux et de saison."
           data-en="We have chosen to offer you traditional French cuisine based on local and seasonal products.">
-          <small>Nous avons choisi de vous proposer une cuisine traditionnelle française reposant sur des produits locaux et de saison.</small>
+          <small>Nous avons choisi de vous proposer une cuisine traditionnelle française reposant sur des produits
+            locaux et de saison.</small>
         </p><br>
 
-        <p id="title7" 
-          data-fr=" Nous vous accueillons dans un cadre chaleureux et convivial."
+        <p id="title7" data-fr=" Nous vous accueillons dans un cadre chaleureux et convivial."
           data-en="We welcome you in a warm and friendly setting.">
           <small>Nous vous accueillons dans un cadre chaleureux et convivial.</small>
         </p><br>
 
         <br>
-        <p id="title8" 
-          data-fr="Créativité, qualité, et sérénité pour vous !"
+        <p id="title8" data-fr="Créativité, qualité, et sérénité pour vous !"
           data-en="Creativity, quality, and serenity for you!">
           <strong>Créativité, qualité,<br>
             et sérénité pour vous !
           </strong>
         </p><br>
-        
-        <br><p id="title9" 
-          data-fr="Nous sommes déterminés à vous faire passer un bon moment."
+
+        <br>
+        <p id="title9" data-fr="Nous sommes déterminés à vous faire passer un bon moment."
           data-en="We are determined to ensure you have a good time.">
           <small>Nous sommes déterminés à vous faire passer un bon moment.</small>
         </p>
 
-        <p id="title10" 
-          data-fr="Nos prérogatives sont de combiner nos expériences pour prendre soin de vous."
+        <p id="title10" data-fr="Nos prérogatives sont de combiner nos expériences pour prendre soin de vous."
           data-en="Our prerogatives are to combine our experiences to take care of you.">
           <small>Nos prérogatives sont de combiner nos expériences pour prendre soin de vous.</small>
         </p><br>
 
-       
-        
-       
-      
+
+
+
+
         <br>
-        <h1 id="title12" data-fr="Voici la Carte du Restaurant et du Bar"
-          data-en="Here is the Restaurant and Bar Menu">Voici la Carte du Restaurant et du Bar
+        <h1 id="title12" data-fr="Voici la Carte du Restaurant et du Bar" data-en="Here is the Restaurant and Bar Menu">
+          Voici la Carte du Restaurant et du Bar
         </h1>
-       
+
         <p id="title13" data-fr="Cliquer sur le bouton pour télécharger une version PDF de la Carte"
           data-en="Click the button to download a PDF version of the Menu">
           Cliquer sur le bouton pour télécharger une version PDF de la Carte
         <p>
-       
+
       </div>
 
       <div class="button">
-        <a href="pdf/carte2026.pdf" download="Carte Auberge 2026" class="ancre" id="title14" data-fr="TELECHARGER LA CARTE"
-        data-en="DOWNLOAD">TELECHARGER LA CARTE</a>
+        <a href="pdf/carte2026.pdf" download="Carte Auberge 2026" class="ancre" id="title14"
+          data-fr="TELECHARGER LA CARTE" data-en="DOWNLOAD">TELECHARGER LA CARTE</a>
       </div>
-      
+
       <div class="button">
         <!--Pour créer un bouton qui renvoie vers une autre page-->
-        <a class="ancre" href="carte.html" id="title15" data-fr="VOIR LA CARTE"
-        data-en="SEE THE MENU">VOIR LA CARTE</a>
+        <a class="ancre" href="carte.html" id="title15" data-fr="VOIR LA CARTE" data-en="SEE THE MENU">VOIR LA CARTE</a>
       </div>
-      
+
     </section>
 
     <div id="info">
@@ -134,14 +171,17 @@
 
 
         <div class="reseaux">
-                       <a href="https://www.facebook.com/profile.php?id=61587355955070"><img class="icoFBC" src="images/facebook.jpg"
-                            alt="Lien vers la Page Facebook de l'Auberge de Charron en Creuse" title="Facebook de l'Auberge de Charron en Creuse">
-                        </a>
-                    </div>
-                    <a href="mentions.html" id="title3.1" class="mentions" data-fr="Mentions Légales" data-en="Legal Notices">Mentions Légales</a>
-                    <figure>
-                        <a href="https://maps.app.goo.gl/HjRMWjqvW8Gmx1W86"><img class="size" src="images/Maps.jpg" alt="Logo de Google Maps" title="Itinéraire GPS vers l'Auberge"></a>
-                    </figure>
+          <a href="https://www.facebook.com/profile.php?id=61587355955070"><img class="icoFBC" src="images/facebook.jpg"
+              alt="Lien vers la Page Facebook de l'Auberge de Charron en Creuse"
+              title="Facebook de l'Auberge de Charron en Creuse">
+          </a>
+        </div>
+        <a href="mentions.html" id="title3.1" class="mentions" data-fr="Mentions Légales"
+          data-en="Legal Notices">Mentions Légales</a>
+        <figure>
+          <a href="https://maps.app.goo.gl/HjRMWjqvW8Gmx1W86"><img class="size" src="images/Maps.jpg"
+              alt="Logo de Google Maps" title="Itinéraire GPS vers l'Auberge"></a>
+        </figure>
 
       </div>
 

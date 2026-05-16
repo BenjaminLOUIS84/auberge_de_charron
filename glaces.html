@@ -1,119 +1,196 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="index.html">
-        <link rel="stylesheet" href="carte.html">
-        <link rel="stylesheet" href="event.html">
-        
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Succombez à nos glaces artisanales et sorbets gourmands à l'Auberge de Charron.
-            Une pause fraîcheur incontournable pour finir votre repas sur une touche sucrée">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="carte.html">
+    <link rel="stylesheet" href="event.html">
 
-        <title>GLACES</title>
-    </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Succombez à nos glaces artisanales et sorbets gourmands à l'Auberge de Charron.
+        Une pause fraîcheur incontournable pour finir votre repas sur une touche sucrée">
 
-    <body>
-        <div class="wrapperPortfolio">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "L'Auberge de Charron",
+  "image": "https://aubergedecharron.benjaminlouis.eu/images/logoAubergeDeCharron.jpg",
+  "@id": "https://aubergedecharron.benjaminlouis.eu",
+  "url": "https://aubergedecharron.benjaminlouis.eu",
+  "telephone": "+33962185673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4 Rue de la Mairie",
+    "addressLocality": "Charron",
+    "postalCode": "23700",
+    "addressRegion": "Nouvelle-Aquitaine",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 46.060468677693414,
+    "longitude": 2.5624787608538253
+  },
+  "hasMenu": "https://aubergedecharron.benjaminlouis.eu/carte.html",
+  "servesCuisine": "Française, Terroir",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "11:30",
+      "closes": "21:30"
+    }
+  ],
+  "acceptsReservations": "True"
+}
+</script>
 
-            <div class="head">
-               
+    <title>GLACES</title>
+</head>
 
-                <!-- SELECTION DE LA LANGUE FR OU EN -->
-                <select aria-label="label for the select" id="language-selector">
-                    <option value="fr">FR</option>
-                    <option value="en">EN</option>
-                </select>
+<body>
+    <div class="wrapperPortfolio">
 
-                <!-- MENU BURGER -->
-                <div class="burger">
-                    <a href="menu.html"><img src="./images/burger.png" class="meal" alt="Icône du menu burger"
-                            title="Menu"></a>
-                </div>
+        <div class="head">
 
+
+            <!-- SELECTION DE LA LANGUE FR OU EN -->
+            <select aria-label="label for the select" id="language-selector">
+                <option value="fr">FR</option>
+                <option value="en">EN</option>
+            </select>
+
+            <!-- MENU BURGER -->
+            <div class="burger">
+                <a href="menu.html"><img src="./images/burger.png" class="meal" alt="Icône du menu burger"
+                        title="Menu"></a>
             </div>
-
-            <header>
-                <nav>
-                    <div class="menu">
-                        <a href="index.html" id="title" data-fr="Accueil" data-en="Welcome">Accueil</a>
-                        <a href="a-propos.html" id="title1" data-fr="A propos" data-en="About">A propos</a>
-                        <a href="carte.html" id="title2" data-fr="La Carte" data-en="The Card">La Carte</a>
-                        <a href="event.html" id="title3" data-fr="Evènements" data-en="Events">Evènements</a>
-                    </div>
-                </nav>
-            </header>
 
         </div>
 
-        <main>
-           
-            <section class="portfolio-section-photos">
-                
-              
-
-                <h1 id="title4" data-fr="LES PARFUMS & LES SUPPLEMENTS"
-                    data-en="FLAVORS & SUPPLEMENTS">LES PARFUMS & LES SUPPLEMENTS
-                </h1>
-
-                <br><p id="title5" data-fr="Parfums au Choix" data-en="Flavors at your choice">Parfums au Choix</p>
-                <div class="blocProjet">
-                    <div class="lien-conteneur-photoGlace">
-                        <figure>
-                            <img class="photoGlace" src="images/boules.jpg"
-                                alt="Photo d'une coupe contenant une boule de glace avec de la chantilly et du nappage au chocolat">
-                        </figure>
-                        <div class="photoGlace-hover">
-                            <div class="infG">
-                                <p id="title6" data-fr="1 Boule à 2.00€ - 2 Boules à 3.50€" data-en="1 Scoop at €2.00 - 2 Scoops at €3.50">1 Boule à 2.00€ - 2 Boules à 3.50€</p><br>
-                                <p id="title7" data-fr="Vanille - Chocolat - Fraise - Menthe - Citron" data-en="Vanilla - Chocolate - Strawberry- Mint - Lemon">Vanille - Chocolat - Fraise - Menthe - Citron</p><br>
-                                <p id="title8" data-fr="Suppléments Chantilly ou Amandes à 1.00€" data-en="Chantilly or Almond supplements at €1.00">Suppléments Chantilly ou Amandes à 1.00€</p>
-                                <p id="title9" data-fr="Suppléments Chocolat ou Miel à 1.50€" data-en="Chocolate or Honey supplements at €1.50">Suppléments Chocolat ou Miel à 1.50€</p>
-                            </div>
-                        </div>
-                    </div>
+        <header>
+            <nav>
+                <div class="menu">
+                    <a href="index.html" id="title" data-fr="Accueil" data-en="Welcome">Accueil</a>
+                    <a href="a-propos.html" id="title1" data-fr="A propos" data-en="About">A propos</a>
+                    <a href="carte.html" id="title2" data-fr="La Carte" data-en="The Card">La Carte</a>
+                    <a href="event.html" id="title3" data-fr="Evènements" data-en="Events">Evènements</a>
                 </div>
+            </nav>
+        </header>
+
+    </div><br>
+
+    <main>
+        <h1 id="title4" data-fr="La Carte des Glaces Artisanales de l'Auberge"
+            data-en="The Auberge's Artisanal Ice Cream Menu">La Carte des Glaces Artisanales de l'Auberge</h1>
+        <p id="title6" data-fr="La Boule de Glace à 3.00€" data-en="A Scoop at €3.00"><strong>La Boule de Glace à 3.00€</strong></p><br>
+
+        <section class="portfolio-section-photos">
+            <p id="title5" data-fr="Nos glaces et sorbets sont confectionnés sur place, avec amour et patience."data-en="Our ice creams and sorbets are made on-site with love and care.">Nos glaces et sorbets sont confectionnés sur place, avec amour et patience.<br></p>
+            <p id="title6.1" data-fr="Chaque parfum est élaboré à partir d'ingrédients de qualité, sélectionnés pour leur fraîcheur et leur authenticité." data-en="Each flavor is crafted from quality ingredients, selected for their freshness and authenticity.">Chaque parfum est élaboré à partir d'ingrédients de qualité, sélectionnés pour leur fraîcheur et leur authenticité.<br></p>
+            <p id="title6.2" data-fr="Découvrez nos créations glacées, véritables invitations à la gourmandise et à la fraîcheur, pour une expérience sucrée inoubliable." data-en="Discover our frozen creations, true invitations to indulgence and freshness, for an unforgettable sweet experience.">Découvrez nos créations glacées, véritables invitations à la gourmandise et à la fraîcheur, pour une expérience sucrée inoubliable.<br></p>
             
-               
-                <h2 id="title14" data-fr="Notre Fournisseur de Glaces et de Produits Surgelés"
-                    data-en="Our Supplier of Ice Cream and Frozen Products">Notre Fournisseur de Glaces et de Produits Surgelés
-                </h2>
+            <br>
 
-                <a href="https://www.ds-restauration.com/"><img class="icoDS" src="images/logo-ds.jpg"
-                    alt="Lien vers Site Web de DISVAL" title="Site Web de DISVAL">
-                </a>
-
-                <br><a href="carte.html#title32" class="ancre" id="title10.2" data-fr="Retour" data-en="Back">Retour</a>
-
-                <div id="info">
-    
-                    <div class="pied">
-    
-                      
-    
-                        <div class="reseaux">
-                         <a href="https://www.facebook.com/profile.php?id=61587355955070"><img class="icoFBC" src="images/facebook.jpg"
-                            alt="Lien vers la Page Facebook de l'Auberge de Charron en Creuse" title="Facebook de l'Auberge de Charron en Creuse">
-                        </a>
-                    </div>
-                    <a href="mentions.html" id="title3.1" class="mentions" data-fr="Mentions Légales" data-en="Legal Notices">Mentions Légales</a>
+            <br><p id="title6.3" data-fr="Nos Sorbets Plein Fruit & Fraîcheur" data-en="Our Full Fruit & Freshness Sorbets"><br><strong>Nos Sorbets Plein Fruit & Fraîcheur</strong><p/><br>
+            <p id="title6.4" data-fr="Citron-Basilic du Jardin : Une alliance vive et herbacée, idéale pour finir le repas sur une note de légèreté absolue."data-en="Lemon-Basil from the Garden: A vibrant and herbaceous combination, ideal for ending your meal on a light and refreshing note."><strong>Citron-Basilic du Jardin</strong><br>Une alliance vive et herbacée, idéale pour finir le repas sur une note de légèreté absolue.<br></p>
+            <div class="blocProjet">
+                <div class="lien-conteneur-photoGlace">
                     <figure>
-                        <a href="https://maps.app.goo.gl/HjRMWjqvW8Gmx1W86"><img class="size" src="images/Maps.jpg" alt="Logo de Google Maps" title="Itinéraire GPS vers l'Auberge"></a>
+                        <img class="photo" src="images/citronBasilic.jpg"
+                            alt="Photo de boules de glace au citron et basilic"
+                            title="Sorbets Citron-Basilic du Jardin">
                     </figure>
-
-
-                    </div>
-    
                 </div>
-            </section>
+            </div>
+            <p id="title6.5" data-fr="Velouté de Fruits Rouges : Un sorbet intense et vibrant, pour une touche de couleur et de peps en fin de bouche." data-en="Red Berry Velouté: An intense and vibrant sorbet, for a touch of color and zest at the end."><strong>Velouté de Fruits Rouges</strong><br>Un sorbet intense et vibrant, pour une touche de couleur et de peps en fin de bouche.<br></p>
+            <div class="blocProjet">
+                <div class="lien-conteneur-photoGlace">
+                    <figure>
+                        <img class="photo" src="images/fruitsRouges.jpg"
+                            alt="Photo de boules de glace au fruits rouges"
+                            title="Sorbets Velouté de Fruits Rouges">
+                    </figure>
+                </div>
+            </div>
+            <br><p id="title6.6" data-fr="Nos Crèmes Glacées Gourmandes" data-en="Our Gourmet Ice Creams"><br><strong>Nos Crèmes Glacées Gourmandes</strong></p><br>
+            <p id="title6.7" data-fr="Menthe Fraîche de l'Auberge : Réalisée à partir d'une infusion à froid de notre menthe de jardin pour garantir cette saveur naturelle si particulière." data-en="Fresh Mint from the Auberge: Made with a cold infusion of our garden mint to guarantee its unique, natural flavor."><strong>Menthe Fraîche de l'Auberge</strong><br>Réalisée à partir d'une infusion à froid de notre menthe de jardin pour garantir cette saveur naturelle si particulière.<br></p>
+            <div class="blocProjet">
+                <div class="lien-conteneur-photoGlace">
+                    <figure>
+                        <img class="photo" src="images/menthe.jpg"
+                            alt="Photo de boules de glace à la menthe fraîche"
+                            title="Crème Glacée Menthe Fraîche de l'Auberge">
+                    </figure>
+                </div>
+            </div>
+            <p id="title6.8" data-fr="Le Chocolat Noir Intense : Une texture onctueuse et profonde, l'alliée gourmande indispensable des amateurs de cacao." data-en="Intense Dark Chocolate: A smooth and rich texture, the essential indulgence for chocolate lovers."><strong>Le Chocolat Noir Intense</strong><br>Une texture onctueuse et profonde, l'alliée gourmande indispensable des amateurs de cacao.<br></p>
+            <div class="blocProjet">
+                <div class="lien-conteneur-photoGlace">
+                    <figure>
+                        <img class="photo" src="images/chocolat.jpg"
+                            alt="Photo de boules de glace au chocolat noir intense"
+                            title="Crème Glacée Chocolat Noir Intense">
+                    </figure>
+                </div>
+            </div>
+            <p id="title6.9" data-fr="Le Caramel au Beurre Salé & Fleur de Sel : Une crème glacée riche et fondante, mariant la douceur du sucre ambré à la pointe saline de la fleur de sel." data-en="Salted Caramel & Fleur de Sel: A rich and creamy ice cream, combining the sweetness of amber sugar with the salty touch of fleur de sel."><strong>Le Caramel au Beurre Salé & Fleur de Sel</strong><br>Une crème glacée riche et fondante, mariant la douceur du sucre ambré à la pointe saline de la fleur de sel.<br></p>
+            <div class="blocProjet">
+                <div class="lien-conteneur-photoGlace">
+                    <figure>
+                        <img class="photo" src="images/caramel.jpg"
+                            alt="Photo de boules de glace au caramel au beurre salé et fleur de sel"
+                            title="Crème Glacée Caramel au Beurre Salé & Fleur de Sel">
+                    </figure>
+                </div>
+            </div>
+            <p id="title6.10" data-fr="La Précieuse Fève de Tonka : Un parfum rare aux notes d'amande et de vanille, le compagnon parfait pour sublimer notre fondant au chocolat." data-en="Precious Tonka Bean: A rare flavor with notes of almond and vanilla, the perfect complement to enhance our chocolate fondant."><strong>La Précieuse Fève de Tonka</strong><br>Un parfum rare aux notes d'amande et de vanille, le compagnon parfait pour sublimer notre fondant au chocolat.<br></p>
+            <div class="blocProjet">
+                <div class="lien-conteneur-photoGlace">
+                    <figure>
+                        <img class="photo" src="images/tonka.jpg"
+                            alt="Photo de boules de glace à la fève de tonka"
+                            title="Crème Glacée La Précieuse Fève de Tonka">
+                    </figure>
+                </div>
+            </div>
+               
+            <br><a href="carte.html#title32" class="ancre" id="title10.2" data-fr="Retour" data-en="Back">Retour</a>
 
-        </main>
+        </section>
 
-        <script src="js/script.js"></script>
+        <div id="info">
 
-    </body>
+            <div class="pied">
+
+                <div class="reseaux">
+                    <a href="https://www.facebook.com/profile.php?id=61587355955070"><img class="icoFBC"
+                            src="images/facebook.jpg" alt="Lien vers la Page Facebook de l'Auberge de Charron en Creuse"
+                            title="Facebook de l'Auberge de Charron en Creuse">
+                    </a>
+                </div>
+
+                <a href="mentions.html" id="title3.1" class="mentions" data-fr="Mentions Légales"
+                    data-en="Legal Notices">Mentions Légales</a>
+                <figure>
+                    <a href="https://maps.app.goo.gl/HjRMWjqvW8Gmx1W86"><img class="size" src="images/Maps.jpg"
+                            alt="Logo de Google Maps" title="Itinéraire GPS vers l'Auberge"></a>
+                </figure>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
 
 </html>

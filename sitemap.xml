@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://aubergedecharron.benjaminlouis.eu/index.html</loc>
+        <loc>https://aubergedecharron.fr/index.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://aubergedecharron.benjaminlouis.eu/carte.html</loc>
+        <loc>https://aubergedecharron.fr/carte.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://aubergedecharron.benjaminlouis.eu/boissons.html</loc>
+        <loc>https://aubergedecharron.fr/boissons.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://aubergedecharron.benjaminlouis.eu/glaces.html</loc>
+        <loc>https://aubergedecharron.fr/glaces.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://aubergedecharron.benjaminlouis.eu/event.html</loc>
+        <loc>https://aubergedecharron.fr/event.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://aubergedecharron.benjaminlouis.eu/a-propos.html</loc>
+        <loc>https://aubergedecharron.fr/a-propos.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://aubergedecharron.benjaminlouis.eu/mentions.html</loc>
+        <loc>https://aubergedecharron.fr/mentions.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>

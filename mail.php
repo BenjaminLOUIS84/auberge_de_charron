@@ -27,7 +27,7 @@
             '<section class="accueil">
                 <h2>Il faut un email, un nom et un message valides pour soumettre le formulaire.</h2><br>
                 <div class="button">
-                        <a href="index.html" class="ancre">Retour</a>
+                        <a href="index.html" class="btn-principal">Retour</a>
                 </div>
             </section>';
 
@@ -64,7 +64,7 @@
                 '<section class="accueil">
                     <h2>Votre message a bien été envoyé.</h2><br>
                     <div class="button">
-                    <a href="index.html" class="ancre">Retour</a>
+                            <a href="index.html" class="btn-principal">Retour</a>
                     </div>
                 </section>';
                 
@@ -73,7 +73,7 @@
                 '<section class="accueil">
                     <h2>Il faut un email, un nom et un message valides pour soumettre le formulaire.</h2><br>
                     <div class="button">
-                            <a href="index.html" class="ancre">Retour</a>
+                            <a href="index.html" class="btn-principal">Retour</a>
                     </div>
                 </section>';
             }

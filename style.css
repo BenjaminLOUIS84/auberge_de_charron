@@ -644,7 +644,7 @@ form p {
     padding: 20px;
     width: 50%;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     text-align: justify;
 }
 
@@ -687,6 +687,7 @@ form p {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 
     /* Gestion de la taille fixe */
     width: 100%;

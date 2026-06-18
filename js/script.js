@@ -68,12 +68,24 @@ function rafraichirHorloge() {
 rafraichirHorloge();
 setInterval(rafraichirHorloge, 1000);
 
-const track = document.querySelector('.carousel-track');
-document.querySelector('.carousel-btn.next').addEventListener('click', () => {
-  track.scrollBy({ left: track.clientWidth, behavior: 'smooth' });
-});
-document.querySelector('.carousel-btn.prev').addEventListener('click', () => {
-  track.scrollBy({ left: -track.clientWidth, behavior: 'smooth' });
-});
+// On sélectionne TOUS les conteneurs de carrousel de la page
+const carousels = document.querySelectorAll('.carousel-container');
 
+carousels.forEach(carousel => {
+  // Pour CHAQUE carrousel, on trouve sa piste et ses boutons spécifiques
+  const track = carousel.querySelector('.carousel-track');
+  const nextBtn = carousel.querySelector('.carousel-btn.next');
+  const prevBtn = carousel.querySelector('.carousel-btn.prev');
+
+  // Sécurité : on vérifie que les boutons existent bien dans ce carrousel
+  if (nextBtn && prevBtn && track) {
+    nextBtn.addEventListener('click', () => {
+      track.scrollBy({ left: track.clientWidth, behavior: 'smooth' });
+    });
+
+    prevBtn.addEventListener('click', () => {
+      track.scrollBy({ left: -track.clientWidth, behavior: 'smooth' });
+    });
+  }
+});
  

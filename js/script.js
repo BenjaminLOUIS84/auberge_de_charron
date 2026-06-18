@@ -68,4 +68,12 @@ function rafraichirHorloge() {
 rafraichirHorloge();
 setInterval(rafraichirHorloge, 1000);
 
+const track = document.querySelector('.carousel-track');
+document.querySelector('.carousel-btn.next').addEventListener('click', () => {
+  track.scrollBy({ left: track.clientWidth, behavior: 'smooth' });
+});
+document.querySelector('.carousel-btn.prev').addEventListener('click', () => {
+  track.scrollBy({ left: -track.clientWidth, behavior: 'smooth' });
+});
+
  

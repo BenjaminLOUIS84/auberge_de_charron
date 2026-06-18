@@ -263,27 +263,36 @@ th {
     margin-bottom: 15px;
 }
 
-#p1-title,#p2-title {
+#p1-title,
+#p2-title {
     font-size: 1.3rem;
     margin: 10px 0;
     color: var(--color-primary);
 }
 
-/* --- FIX SCROLL & POSITIONNEMENT BOUTIQUE --- */
-
-/* On force le header (menu PC) à rester tout en haut au premier plan */
+/* FORCE LE MENU PC À RESTER AU-DESSUS DE TOUT */
 header {
-    position: relative;
-    /* ou fixed selon la structure de ton site */
-    z-index: 9999 !important;
-    background-color: #ffffff;
-    /* Ajuste si le fond de ton menu n'est pas blanc */
+    position: relative !important;
+    /* Force le positionnement pour activer le z-index */
+    z-index: 99999 !important;
+    /* Niveau d'affichage maximal */
+    background-color: #ffffff !important;
+    /* Évite la transparence au scroll */
 }
 
-/* On s'assure que l'horloge reste aussi au premier plan */
-#horloge {
-    position: relative;
-    z-index: 10000 !important;
+/* L'HORLOGE ET LE MENU EN CONFLIT */
+.head,
+#horloge,
+.menu {
+    position: relative !important;
+    z-index: 99999 !important;
+}
+
+/* LA CARTE PRODUIT DOIT RESTER EN DESSOUS */
+.produit-card {
+    position: relative !important;
+    z-index: 1 !important;
+    /* Niveau le plus bas pour glisser sous le menu */
 }
 
 /* La section intro de la boutique */

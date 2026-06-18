@@ -263,6 +263,11 @@ th {
     margin-bottom: 15px;
 }
 
+#p1-title,#p2-title {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    color: var(--color-third);
+}
 
 .icon-gift {
     color: #d9534f;

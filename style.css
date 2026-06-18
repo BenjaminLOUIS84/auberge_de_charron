@@ -216,7 +216,7 @@ th {
 /* Style pour l'encart Boutique sur la page d'accueil */
 .encart-boutique {
     background-color: rgba(0, 0, 0, 0.03);
-    /* Un fond très léger pour détacher la section */
+    /* Un fond très léger transparent pour détacher la section */
     padding: 40px 20px;
     text-align: center;
     border-top: 1px solid #eee;

@@ -280,20 +280,31 @@ header {
     /* Évite la transparence au scroll */
 }
 
+/* CORRECTIF ULTIME POUR LE SÉLECTEUR DE LANGUE SUR PC */
 #language-selector {
     position: relative !important;
-    z-index: 99999 !important;
-    cursor: pointer;
-    /* Niveau d'affichage maximal */
+    z-index: 9999999 !important;
+    /* On monte encore d'un cran */
+    pointer-events: auto !important;
+    /* Force le navigateur à accepter les clics de souris */
+    cursor: pointer !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* On s'assure que son conteneur direct (.head) autorise aussi le clic */
+.head {
+    pointer-events: auto !important;
 }
 
 /* L'HORLOGE ET LE MENU EN CONFLIT */
-.head,
+/* .head,
 #horloge,
 .menu {
     position: relative !important;
     z-index: 99999 !important;
-}
+} */
 
 /* LA CARTE PRODUIT DOIT RESTER EN DESSOUS */
 .produit-card {

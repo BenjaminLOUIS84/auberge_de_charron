@@ -254,7 +254,7 @@ th {
 .produit-prix {
     font-size: 1.6rem;
     font-weight: bold;
-    color: #333;
+    color: var(--color-primary);
     margin: 10px 0;
 }
 
@@ -266,15 +266,7 @@ th {
 #p1-title,#p2-title {
     font-size: 1.3rem;
     margin: 10px 0;
-    color: var(--color-third);
-}
-
-.icon-gift {
-    color: #d9534f;
-}
-
-.icon-masterclass {
-    color: #f0ad4e;
+    color: var(--color-primary);
 }
 
 /* --- FIX SCROLL & POSITIONNEMENT BOUTIQUE --- */

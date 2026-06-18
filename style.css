@@ -280,6 +280,13 @@ header {
     /* Évite la transparence au scroll */
 }
 
+#language-selector {
+    position: relative !important;
+    z-index: 99999 !important;
+    cursor: pointer;
+    /* Niveau d'affichage maximal */
+}
+
 /* L'HORLOGE ET LE MENU EN CONFLIT */
 .head,
 #horloge,

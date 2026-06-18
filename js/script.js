@@ -14,19 +14,44 @@ function scrollFunction() {
   }
 }
 
-// --- GESTION DE LA TRADUCTION AUTOMATIQUE (AMÉLIORÉE) ---
+// // --- GESTION DE LA TRADUCTION AUTOMATIQUE (AMÉLIORÉE) ---
+// const languageSelector = document.getElementById('language-selector');
+// if (languageSelector) {
+//   languageSelector.addEventListener('change', (event) => {
+//     const selectedLanguage = event.target.value;
+   
+//     // Au lieu de chercher les ID, on cherche TOUS les éléments qui ont un attribut data-fr ou data-en
+//     document.querySelectorAll('[data-fr]').forEach(element => {
+//       if (element.dataset[selectedLanguage]) {
+//         element.textContent = element.dataset[selectedLanguage];
+//       }
+//     });
+//   });
+// }
+
 const languageSelector = document.getElementById('language-selector');
+
+// Fonction isolée pour traduire tous les éléments de la page
+function traduirePage(langue) {
+  document.querySelectorAll('[data-fr]').forEach(element => {
+    if (element.dataset[langue]) {
+      element.textContent = element.dataset[langue];
+    }
+  });
+}
+
 if (languageSelector) {
+  // Écoute le changement manuel du sélecteur
   languageSelector.addEventListener('change', (event) => {
     const selectedLanguage = event.target.value;
-   
-    // Au lieu de chercher les ID, on cherche TOUS les éléments qui ont un attribut data-fr ou data-en
-    document.querySelectorAll('[data-fr]').forEach(element => {
-      if (element.dataset[selectedLanguage]) {
-        element.textContent = element.dataset[selectedLanguage];
-      }
-    });
+    localStorage.setItem('site-langue', selectedLanguage); // On mémorise le choix du client
+    traduirePage(selectedLanguage);
   });
+
+  // MAGIE : Au chargement de la page, on vérifie si l'utilisateur avait choisi "EN" sur la page précédente
+  const langueEnregistree = localStorage.getItem('site-langue') || 'fr';
+  languageSelector.value = langueEnregistree;
+  traduirePage(langueEnregistree);
 }
 
 // --- HORLOGE ---

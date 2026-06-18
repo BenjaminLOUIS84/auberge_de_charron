@@ -37,6 +37,13 @@
     </url>
 
     <url>
+        <loc>https://aubergedecharron.fr/boutique.html</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
         <loc>https://aubergedecharron.fr/a-propos.html</loc>
         <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>

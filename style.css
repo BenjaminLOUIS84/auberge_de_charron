@@ -213,6 +213,42 @@ th {
     padding: 10px;
 }
 
+/* Style pour l'encart Boutique sur la page d'accueil */
+.encart-boutique {
+    background-color: rgba(0, 0, 0, 0.03);
+    /* Un fond très léger pour détacher la section */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.encart-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.encart-content p {
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Nettoyage des styles de la boutique */
+.boutique-intro {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icon-gift {
+    color: #d9534f;
+}
+
+.icon-masterclass {
+    color: #f0ad4e;
+}
 
 
 /* EFFET PARALLAX */

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Boutique officielle de l'Auberge de Charron. Achetez vos bons cadeaux et masterclass en ligne.">
+    <title>Boutique | Auberge de Charron</title>
+
+    <style>
+        /* Styles spécifiques pour la grille de la boutique */
+        .boutique-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px 20px;
+        }
+
+        .produit-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .produit-card h3 {
+            margin-top: 15px;
+            font-size: 1.4rem;
+        }
+
+        .produit-prix {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .produit-card p {
+            font-size: 0.95rem;
+            height: 60px;
+            /* Aligne les boutons si les textes ont des longueurs différentes */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="head">
+            <select aria-label="label for the select" id="language-selector">
+                <option value="fr">FR</option>
+                <option value="en">EN</option>
+            </select><br>
+            <div class="burger">
+                <a href="menu.html"><img src="./images/burger.png" class="meal" alt="Icône du menu burger"
+                        title="Menu"></a>
+            </div>
+        </div>
+
+        <header>
+            <nav>
+                <div class="menu">
+                    <a href="index.html" id="title" data-fr="Accueil" data-en="Welcome">Accueil</a>
+                    <a href="a-propos.html" id="title1" data-fr="A propos" data-en="About">A propos</a>
+                    <a href="carte.html" id="title2" data-fr="La Carte" data-en="The Card">La Carte</a>
+                    <a href="event.html" id="title3" data-fr="Evènements" data-en="Events">Evènements</a>
+                    <a href="boutique.html" id="title-boutique" data-fr="Boutique" data-en="Shop">Boutique</a><br>
+                    <div id="horloge"></div><br>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <section class="boutique-intro">
+            <h1 id="page-boutique-title" data-fr="Notre Boutique En Ligne" data-en="Our Online Shop">Notre Boutique En
+                Ligne</h1>
+        </section>
+
+        <div class="boutique-container">
+
+            <!-- PRODUIT 1 : BON CADEAU -->
+            <div class="produit-card">
+                <i class="fas fa-gift fa-3x icon-gift"></i>
+                <h3 id="p1-title" data-fr="Bon Cadeau - Échappée Gourmande" data-en="Gift Voucher - Gourmet Escape">Bon
+                    Cadeau - Échappée Gourmande</h3>
+                <div class="produit-prix">90 €</div>
+                <p id="p1-desc" data-fr="Valable pour un repas complet pour deux personnes à l'Auberge."
+                    data-en="Valid for a full meal for two people at the Auberge.">Valable pour un repas complet pour
+                    deux personnes à l'Auberge.</p>
+                <!-- METS TON LIEN STRIPE PRODUCTION DU BON CADEAU CI-DESSOUS -->
+                <a href="https://buy.stripe.com/eVqaEXbPg28A9VI3x33gk02" class="btn-principal" id="p1-btn" data-fr="Offrir ce cadeau"
+                    data-en="Buy as a gift">Offrir ce cadeau</a>
+            </div>
+
+            <!-- PRODUIT 2 : MASTERCLASS -->
+            <!--<div class="produit-card">
+                <i class="fas fa-graduation-cap fa-3x icon-masterclass"></i>
+                <h3 id="p2-title" data-fr="Masterclass Digitale - Le Menu" data-en="Digital Masterclass - The Menu">
+                    Masterclass Digitale - Le Menu</h3>
+                <div class="produit-prix">30 €</div>
+                <p id="p2-desc" data-fr="Apprenez les techniques de Benjamin grâce à nos guides vidéos et e-books."
+                    data-en="Learn Benjamin's techniques with our video guides and e-books.">Apprenez les techniques de
+                    Benjamin grâce à nos guides vidéos et e-books.</p>
+                
+                <a href="https://buy.stripe.com/7sYaEXf1saF65Fs6Jf3gk03" class="btn-principal" id="p2-btn"
+                    data-fr="Acheter la Masterclass" data-en="Buy the Masterclass">Acheter la Masterclass</a>
+            </div>-->
+
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61587355955070" aria-label="Facebook"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://youtube.com/@lesrecettesdebenjamin?si=nUhNXoF--k0MTztA" aria-label="YouTube"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://maps.app.goo.gl/HjRMWjqvW8Gmx1W86" aria-label="Google Maps"><i
+                            class="fas fa-map-marker-alt"></i></a>
+                </div>
+                <div class="footer-links">
+                    <a href="mentions.html" id="title3.1" class="mentions" data-fr="Mentions Légales"
+                        data-en="Legal Notices">Mentions Légales</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

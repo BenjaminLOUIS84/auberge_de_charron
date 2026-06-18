@@ -239,8 +239,53 @@ th {
 /* Nettoyage des styles de la boutique */
 .boutique-intro {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 120px;
+    padding-bottom: 10px;
 }
+
+.boutique-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px 20px;
+}
+
+.produit-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 320px;
+    /* Légèrement élargi pour mieux accueillir l'image sur PC */
+    padding: 15px;
+    /* Padding interne réduit pour éliminer le grand vide blanc */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Force tout le monde (images, textes, boutons) sur une seule colonne bien centrée */
+}
+
+.produit-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.produit-prix {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.produit-card p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
 
 .icon-gift {
     color: #d9534f;

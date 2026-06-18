@@ -251,29 +251,6 @@ th {
     padding: 15px 20px;
 }
 
-.produit-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    width: 320px;
-    /* Légèrement élargi pour mieux accueillir l'image sur PC */
-    padding: 15px;
-    /* Padding interne réduit pour éliminer le grand vide blanc */
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Force tout le monde (images, textes, boutons) sur une seule colonne bien centrée */
-}
-
-.produit-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-
 .produit-prix {
     font-size: 1.6rem;
     font-weight: bold;
@@ -295,6 +272,54 @@ th {
     color: #f0ad4e;
 }
 
+/* --- FIX SCROLL & POSITIONNEMENT BOUTIQUE --- */
+
+/* On force le header (menu PC) à rester tout en haut au premier plan */
+header {
+    position: relative;
+    /* ou fixed selon la structure de ton site */
+    z-index: 9999 !important;
+    background-color: #ffffff;
+    /* Ajuste si le fond de ton menu n'est pas blanc */
+}
+
+/* On s'assure que l'horloge reste aussi au premier plan */
+#horloge {
+    position: relative;
+    z-index: 10000 !important;
+}
+
+/* La section intro de la boutique */
+.boutique-intro {
+    text-align: center;
+    padding-top: 140px;
+    /* Donne assez d'espace pour ne pas chevaucher l'horloge sur PC */
+    padding-bottom: 15px;
+}
+
+/* La carte produit glissera sagement en dessous */
+.produit-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    width: 320px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    /* Priorité basse pour passer SOUS le menu au scroll */
+}
+
+.produit-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
 
 /* EFFET PARALLAX */
 /*  Pour mettre une image fixe en arrière plan*/

@@ -88,4 +88,19 @@ carousels.forEach(carousel => {
     });
   }
 });
+
+
+// 1. On récupère l'email s'il est présent dans l'URL de la boutique
+const urlParams = new URLSearchParams(window.location.search);
+const emailClient = urlParams.get('email');
+
+// 2. Si un email est trouvé, on l'ajoute aux boutons de validation
+if (emailClient) {
+    document.querySelectorAll('a[href^="validation-commande.php"]').forEach(bouton => {
+        let hrefActuel = bouton.getAttribute('href');
+        // On ajoute &email=... au bout du lien existant
+        bouton.setAttribute('href', hrefActuel + '&email=' + encodeURIComponent(emailClient));
+    });
+}
+
  

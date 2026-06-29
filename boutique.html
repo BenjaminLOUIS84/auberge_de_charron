@@ -5,49 +5,52 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="robots" content="index, follow">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Boutique officielle de l'Auberge de Charron. Achetez vos bons cadeaux et masterclass en ligne.">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "L'Auberge de Charron",
+  "image": "https://aubergedecharron.fr/images/logoAubergeDeCharron.jpg",
+  "@id": "https://aubergedecharron.fr",
+  "url": "https://aubergedecharron.fr",
+  "telephone": "+33962185673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4 Rue de la Mairie",
+    "addressLocality": "Charron",
+    "postalCode": "23700",
+    "addressRegion": "Nouvelle-Aquitaine",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 46.060468677693414,
+    "longitude": 2.5624787608538253
+  },
+  "hasMenu": "https://aubergedecharron.fr/carte.html",
+  "servesCuisine": "Française, Terroir",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "11:30",
+      "closes": "21:30"
+    }
+  ],
+  "acceptsReservations": "True"
+}
+</script>
+
     <title>Boutique | Auberge de Charron</title>
 
-    <style>
-        /* Styles spécifiques pour la grille de la boutique */
-        .boutique-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            padding: 40px 20px;
-        }
-
-        .produit-card {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            width: 300px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        .produit-card h3 {
-            margin-top: 15px;
-            font-size: 1.4rem;
-        }
-
-        .produit-prix {
-            font-size: 1.6rem;
-            font-weight: bold;
-            color: #333;
-            margin: 15px 0;
-        }
-
-        .produit-card p {
-            font-size: 0.95rem;
-            height: 60px;
-            /* Aligne les boutons si les textes ont des longueurs différentes */
-        }
-    </style>
 </head>
 
 <body>
@@ -121,15 +124,17 @@
                                 pour</li>
                         </ul>
                         <br>
-                        <a href="images/bonCadeau.png" class="btn-principal" target="_blank" id="title8.1" data-fr="Détail du menu ici" data-en="Detail of the menu here">Détail du menu ici
+                        <a href="images/bonCadeau.png" class="btn-principal" target="_blank" id="title8.1"
+                            data-fr="Détail du menu ici" data-en="Detail of the menu here">Détail du menu ici
                         </a><br>
 
-                        <br><p class="note" id="title11"
-                        data-fr="Note : Ce bon cadeau est valable pour une durée de 12 mois à compter de la date d'achat. Il est non remboursable et ne peut être échangé contre de l'argent."
-                        data-en="Note: This gift voucher is valid for 12 months from the date of purchase. It is non-refundable and cannot be exchanged for cash.">
-                        <strong>Note :</strong> Ce bon cadeau est valable pour une durée de 12 mois à compter de la
-                        date
-                        d'achat. Il est non remboursable et ne peut être échangé contre de l'argent.
+                        <br>
+                        <p class="note" id="title11"
+                            data-fr="Note : Ce bon cadeau est valable pour une durée de 12 mois à compter de la date d'achat. Il est non remboursable et ne peut être échangé contre de l'argent."
+                            data-en="Note: This gift voucher is valid for 12 months from the date of purchase. It is non-refundable and cannot be exchanged for cash.">
+                            <strong>Note :</strong> Ce bon cadeau est valable pour une durée de 12 mois à compter de la
+                            date
+                            d'achat. Il est non remboursable et ne peut être échangé contre de l'argent.
                         </p>
                     </div>
                     <div class="produit-card">
@@ -166,7 +171,8 @@
 
 
                         <div class="bon-cadeau-description">
-                            <h3 id="title12" data-fr="👨‍🍳 Masterclass Digitale : Le Menu Echappée Gourmande à la Maison"
+                            <h3 id="title12"
+                                data-fr="👨‍🍳 Masterclass Digitale : Le Menu Echappée Gourmande à la Maison"
                                 data-en="👨‍🍳 Digital Masterclass: The Menu Gourmet Escape at Home">
                                 👨‍🍳 Masterclass Digitale : Le Menu Echappée Gourmande à la Maison
                             </h3>
@@ -223,7 +229,7 @@
                                     techniques de
                                     Benjamin grâce à nos guides vidéos et e-books.</p>
 
-                                    <!--<a href="validation-commande.php?produit=masterclass" class="btn-principal" id="p2-btn"
+                                <!--<a href="validation-commande.php?produit=masterclass" class="btn-principal" id="p2-btn"
                             data-fr="Réserver cette masterclass" data-en="Book this masterclass">Réserver cette masterclass</a>-->
 
                                 <p class="btn-principal" id="p2-btn" data-fr="Bientôt disponible" data-en="Coming soon">

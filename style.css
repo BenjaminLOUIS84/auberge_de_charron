@@ -250,6 +250,45 @@ header {
 } */
 
 /* ----------------------------------------------------------------BOUTIQUE */
+
+
+/* Styles spécifiques pour la grille de la boutique */
+.boutique-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.produit-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.produit-card h3 {
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+.produit-prix {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin: 15px 0;
+}
+
+.produit-card p {
+    font-size: 0.95rem;
+    height: 60px;
+    /* Aligne les boutons si les textes ont des longueurs différentes */
+}
+
 .bon-cadeau-description {
     max-width: 600px;
     margin: 20px auto;
@@ -397,68 +436,76 @@ header {
 
 /* Conteneur principal du carrousel */
 .carousel-container {
-  position: relative;
-  width: 100%;
-  max-width: 1200px; /* À ajuster selon votre design */
-  margin: 0 auto;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    /* À ajuster selon votre design */
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 /* Piste qui contient les slides et gère le défilement horizontal */
 .carousel-track {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  
-  /* Masquer la barre de défilement sur tous les navigateurs */
-  -ms-overflow-style: none; /* IE et Edge */
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+    /* Masquer la barre de défilement sur tous les navigateurs */
+    -ms-overflow-style: none;
+    /* IE et Edge */
 
 }
 
 .carousel-track::-webkit-scrollbar {
-  display: none; /* Chrome, Safari et Opera */
+    display: none;
+    /* Chrome, Safari et Opera */
 }
 
 /* Chaque produit prend toute la largeur du conteneur */
 .carousel-slide {
-  min-width: 100%;
-  box-sizing: border-box;
-  scroll-snap-align: start;
-  padding: 20px;
-  
-  /* Optionnel : Centre le contenu si votre design actuel utilise flex */
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
+    min-width: 100%;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+    padding: 20px;
+
+    /* Optionnel : Centre le contenu si votre design actuel utilise flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Boutons de navigation (flèches de gauche et droite) */
 .carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 18px;
-  cursor: pointer;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
 }
 
 .carousel-btn:hover {
-  background-color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.carousel-btn.prev { left: 10px; }
-.carousel-btn.next { right: 10px; }
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
 
 /* -----------------------------------------------------------EFFET PARALLAX */
 /*  Pour mettre une image fixe en arrière plan*/

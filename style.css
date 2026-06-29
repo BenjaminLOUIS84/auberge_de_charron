@@ -747,6 +747,20 @@ h3 {
     text-align: justify;
 }
 
+.inf p {
+    max-width: 100%;
+    /* S'assure que le texte ne dépasse pas la largeur */
+    overflow-wrap: break-word;
+    /* Force les mots trop longs à revenir à la ligne proprement */
+    word-break: break-word;
+    /* Sécurité supplémentaire pour les anciens navigateurs */
+    padding: 15px;
+    /* Donne un peu d'air au texte pour qu'il ne colle pas aux bords */
+    box-sizing: border-box;
+    /* Évite que le padding n'agrandisse le bloc */
+}
+
+
 .photoCarte-hover {
     background-image: url("images/photoDuBarNuit.jpg");
     background-size: cover;
@@ -818,6 +832,9 @@ h3 {
     font-size: larger;
     padding: 10px;
     text-align: center;
+    max-height: 100%;
+    overflow-y: auto;
+    justify-content: center;
 }
 
 .infG {
@@ -1595,7 +1612,7 @@ form p {
     }
 
     .inf {
-        font-size: smaller;
+        font-size: 15px;
     }
 
     .photo {

@@ -1,0 +1,192 @@
+/* Page web Masterclass */
+/* --- STYLE SPÉCIFIQUE CHARTE GRAPHIQUE HAUT DE GAMME --- */
+:root {
+    --gold: #c5a880;
+    /* Teinte dorée optionnelle pour le côté gastronomique */
+    --dark: #1a1a1a;
+    --light: #f9f9f9;
+    --color-accent: rgb(69, 3, 21);
+    /* Accent couleur pour les titres et éléments importants */
+
+}
+
+body {
+    font-family: 'Georgia', serif;
+    /* Style littéraire / culinaire */
+    background-color: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.header-masterclass {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    background: var(--color-accent);
+    color: var(--gold);
+}
+
+.header-masterclass h1 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--light);
+}
+
+.mot-chef {
+    font-style: italic;
+    background: #f5dada;
+    padding: 20px;
+    border-left: 3px solid var(--dark);
+    margin: 20px 0;
+}
+
+/* --- BLOC PROTECTION VIDÉO YOUTUBE --- */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Ratio 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Le bouclier invisible anti-clic droit et anti-partage */
+.video-shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background: transparent;
+}
+
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--dark);
+    padding-bottom: 5px;
+    margin-top: 50px;
+    background: var(--color-accent);
+    color: var(--light);
+    text-align: center;
+}
+
+.grid-fiches {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.fiche-technique {
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.badge {
+    background: var(--dark);
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+/* Style moderne unique pour tous les boutons principaux */
+.btn-principal {
+    /* Alignement et structure */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    /* Gestion de la taille fixe */
+    width: 100%;
+    max-width: 180px;
+    /* Force TOUS les boutons à faire la même largeur max */
+    height: 50px;
+    /* Force la même hauteur pour tout le monde */
+    margin: 10px auto;
+
+    /* Design et forme */
+    background: linear-gradient(135deg, #4CAF50, #2E6F40);
+    /* Beau dégradé vert */
+    color: #ffffff !important;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Tout en majuscules comme sur tes photos */
+    text-decoration: none;
+
+    /* Coins arrondis modernes (pas une ellipse totale) */
+    border-radius: 8px;
+    border: none;
+
+    /* Ombres et transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Effet au survol (hover) */
+.btn-principal:hover {
+    transform: translateY(-2px);
+    /* Le bouton se soulève légèrement */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, #55C259, #35824B);
+    /* Éclaircissement */
+}
+
+/* Effet au clic */
+.btn-principal:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}

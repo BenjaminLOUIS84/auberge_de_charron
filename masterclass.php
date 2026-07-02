@@ -99,9 +99,12 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
        
     <h4>Épicerie Fine & Ingrédients Clés</h4>
     <ul>
-        <li><strong>Riz Arborio ou Carnaroli (AOP) :</strong> Seuls ces riz confèrent le crémeux inimitable du grand risotto italien sans s'écraser.</li>
-        <li><strong>Pistils de Safran pur :</strong> Évitez la poudre, les filaments infusés apportent un parfum noble et une couleur d'or.</li>
-        <li><strong>Fève Tonka entière :</strong> À râper au dernier moment sur la courge pour développer des notes d'amande et de vanille sauvage.</li>
+        <li><strong>Riz Arborio (AOP) :</strong> Seuls ces riz confèrent le crémeux inimitable du grand risotto italien sans s'écraser.<br><a href="https://amzn.to/44EoJka" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Safran en poudre :</strong> La poudre diluée dans le bouillon apporte un parfum noble et une couleur d'or.<br><a href="https://amzn.to/4ausqfJ" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Fève Tonka entière :</strong> À râper au dernier moment sur la courge pour développer des notes d'amande et de vanille sauvage.<br><a href="https://amzn.to/4auipiK" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Chocolat Blanc :</strong> Idéal pour la préparation du dôme de chocolat blanc du dessert.<br><a href="https://amzn.to/4gToity" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Gélatine :</strong> Essentielle pour la préparation de la mousse bavaroise aux fruits rouges.<br><a href="https://amzn.to/44dVuoa" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Agar-Agar :</strong> Alternative végétarienne pour la préparation de mousse bavaroise.<br><a href="https://amzn.to/4wtfak9" target="_blank" class="btn-principal">Commandez</a></li>
     </ul>
     
     <!-- ==========================================

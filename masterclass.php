@@ -84,11 +84,18 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
          ========================================== -->
     <h3 class="section-title">2. Liste des Courses & Matériel Recommandé</h3>
     <p>Pour obtenir le même niveau d'excellence qu'à l'Auberge, la qualité du matériel et des ingrédients est primordiale.</p>
-   
+    <p>Pour votre confort, j'ai sélectionné les meilleurs produits et ustensiles sur Amazon. Vous pouvez les commander directement via les liens ci-dessous.</p>
+
     <h4>Ustensiles Techniques Spécifiques</h4>
     <ul>
         <li><strong>Poches à douille jetables et Douilles:</strong> Idéal pour le dressage propre de la mousseline de butternut et de la mousse bavaroise.<br><a href="https://amzn.to/4vIQ54D" target="_blank" class="btn-principal">Commandez</a></li>
         <li><strong>Moule demi-sphères en silicone (Ø6-7cm) :</strong> Requis pour mouler et démouler parfaitement le dôme de chocolat blanc du dessert.<br><a href="https://amzn.to/4eUH8hr" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Moule rectangle en silicone :</strong> Requis pour mouler et démouler parfaitement le flan de légumes.<br><a href="https://amzn.to/4oZsaeL" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Balance de précision :</strong> Requis pour peser les ingrédients avec exactitude.<br><a href="https://amzn.to/3TewV89" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Mixeur plongeant :</strong> Requis pour mixer les ingrédients de manière uniforme et réaliser la crème de sous bois.<br><a href="https://amzn.to/4wnNnBu" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Sorbetière :</strong> Idéale pour confectionner le sorbet au citron.<br><a href="https://amzn.to/4v5oU2V" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Emporte-pièces (Ø8cm):</strong> Pratique pour dresser le risotto et pour faconner le sablé.<br><a href="https://amzn.to/4eHceu7" target="_blank" class="btn-principal">Commandez</a></li>
+        <li><strong>Couteau de chef :</strong> Essentiel pour découper et préparer les ingrédients.<br><a href="https://amzn.to/4giEWCP" target="_blank" class="btn-principal">Commandez</a></li>
        
     <h4>Épicerie Fine & Ingrédients Clés</h4>
     <ul>
@@ -96,8 +103,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <li><strong>Pistils de Safran pur :</strong> Évitez la poudre, les filaments infusés apportent un parfum noble et une couleur d'or.</li>
         <li><strong>Fève Tonka entière :</strong> À râper au dernier moment sur la courge pour développer des notes d'amande et de vanille sauvage.</li>
     </ul>
-
-
+    
     <!-- ==========================================
          SECTION 3 : LE RÉTROPLANNING
          ========================================== -->

@@ -139,6 +139,25 @@ th {
     background-color: #eee;
 }
 
+/* Le conteneur bloque tout ce qui dépasse */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Ratio 16:9 */
+    height: 0;
+    overflow: hidden; /* C'est ça qui va couper les boutons YouTube ! */
+}
+
+/* L'iframe est agrandie et décalée pour masquer les bords */
+.video-wrapper iframe {
+    position: absolute;
+    top: -7%;     /* On remonte la vidéo pour cacher la barre du haut */
+    left: -8%;    /* On décale à gauche */
+    right: -8%;    /* On décale à droite */
+    width: 118%;  /* On l'agrandit pour compenser */
+    height: 118%; /* On l'agrandit pour compenser */
+}
+
+
 /* Style moderne unique pour tous les boutons principaux */
 .btn-principal {
     /* Alignement et structure */

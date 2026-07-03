@@ -57,7 +57,8 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- Le bouclier de protection -->
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_1 par l'identifiant de ta vidéo non répertoriée -->
-        <iframe src="https://www.youtube.com/embed/ID_YOUTUBE_1?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>
+        <!--<iframe src="https://youtube.com/embed/pDVCWKru7iQ?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>-->
+        <iframe src="https://youtube.com/embed/ID_YOUTUBE_1?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <!-- VIDÉO 2 -->

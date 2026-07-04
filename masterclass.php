@@ -58,7 +58,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_1 par l'identifiant de ta vidéo non répertoriée -->
         <!--<iframe src="https://youtube.com/embed/pDVCWKru7iQ?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>-->
-        <iframe src="https://youtube.com/embed/ID_YOUTUBE_1?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>
+        <video src="videos/video1.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature1.jpg" width="100%" height="auto"></video>
     </div>
 
     <!-- VIDÉO 2 -->
@@ -67,7 +67,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <div class="video-wrapper">
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_2 par l'identifiant -->
-        <iframe src="https://www.youtube.com/embed/ID_YOUTUBE_2?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>
+        <video src="videos/video2.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature2.jpg" width="100%" height="auto"></video>
     </div>
 
     <!-- VIDÉO 3 -->
@@ -76,7 +76,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <div class="video-wrapper">
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_3 par l'identifiant -->
-        <iframe src="https://www.youtube.com/embed/ID_YOUTUBE_3?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>
+        <video src="videos/video3.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature3.jpg" width="100%" height="auto"></video>
     </div>
 
 

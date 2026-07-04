@@ -58,25 +58,34 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_1 par l'identifiant de ta vidéo non répertoriée -->
         <!--<iframe src="https://youtube.com/embed/pDVCWKru7iQ?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>-->
-        <video src="videos/video1.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature1.jpg" width="100%" height="auto"></video>
+        <video src="videos/video0.1.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature1.jpg" width="100%" height="auto"></video>
     </div>
 
     <!-- VIDÉO 2 -->
-    <h3>📹 Vidéo 2 : La Préparation du Plat (Mer & Option Terre)</h3>
-    <p><strong>Au programme :</strong> Maîtrise des cuissons (Cabillaud en croûte d'Émeraude et Pavé Limousin), réalisation du risotto au Safran, du flan de légumes, de la mousseline, des beignets d'Aubergines et techniques de sauces de Chef.</p>
+    <h3>📹 Vidéo 2 : La Préparation du Plat (Option Mer)</h3>
+    <p><strong>Au programme :</strong> Maîtrise des cuissons (Cabillaud en croûte d'Émeraude), réalisation du risotto au Safran, du flan de légumes et technique de la sauce Beurre Blanc Echalote.</p>
     <div class="video-wrapper">
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_2 par l'identifiant -->
-        <video src="videos/video2.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature2.jpg" width="100%" height="auto"></video>
+        <video src="videos/video0.2.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature2.jpg" width="100%" height="auto"></video>
     </div>
 
     <!-- VIDÉO 3 -->
-    <h3>📹 Vidéo 3 : La Préparation du Dessert & Conclusion</h3>
-    <p><strong>Au programme :</strong> Architecture du Jardin Blanc (dôme chocolat), manipulation des textures gel, confection du sorbet / biscuit et les mots de conclusion du Chef.</p>
+    <h3>📹 Vidéo 3 : La Préparation du Plat (Option Terre)</h3>
+    <p><strong>Au programme :</strong> Maîtrise des cuissons (Pavé Limousin), réalisation de la mousseline de Courge à la fève de Tonka, des beignets d'Aubergines et technique de la sauce au Bleu d'Auvergne.</p>
     <div class="video-wrapper">
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_3 par l'identifiant -->
-        <video src="videos/video3.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature3.jpg" width="100%" height="auto"></video>
+        <video src="videos/video0.3.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature3.jpg" width="100%" height="auto"></video>
+    </div>
+
+    <!-- VIDÉO 4 -->
+    <h3>📹 Vidéo 4 : La Préparation du Dessert & Conclusion</h3>
+    <p><strong>Au programme :</strong> Architecture du Jardin Blanc (dôme chocolat), manipulation des textures gel, confection du sorbet / biscuit et les mots de conclusion du Chef.</p>
+    <div class="video-wrapper">
+        <div class="video-shield"></div>
+        <!-- Remplacer ID_YOUTUBE_4 par l'identifiant -->
+        <video src="videos/video0.4.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature4.jpg" width="100%" height="auto"></video>
     </div>
 
 

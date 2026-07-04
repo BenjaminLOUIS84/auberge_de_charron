@@ -201,7 +201,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <button class="carousel-btn prev">❮</button>
             <button class="carousel-btn next">❯</button>
     </div>
-    
+    <p><em>Note : Les liens ci-dessus sont des liens d'affiliation Amazon. En passant par ces liens, vous soutenez notre travail sans coût supplémentaire pour vous.</em></p>
     <!-- ==========================================
          SECTION 3 : LE RÉTROPLANNING
          ========================================== -->

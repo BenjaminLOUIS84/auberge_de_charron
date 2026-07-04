@@ -104,36 +104,52 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <div class="carousel-container">
         <div class="carousel-track">
             <div class="carousel-slide">
+                 <div class="produit-card">
                 <img src="images/pocheDouille.jpg" alt="Poches à douille" width="50%" height="auto">
                 <strong>Poches à douille jetables et Douilles:</strong> Idéal pour le dressage propre de la mousseline de butternut et de la mousse bavaroise.<br><a href="https://amzn.to/4vIQ54D" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
-            <div class="carousel-slide">  
+            <div class="carousel-slide">
+                <div class="produit-card"> 
                 <img src="images/mouleSphere.jpg" alt="Moule demi-sphères" width="50%" height="auto">
                 <strong>Moule demi-sphères en silicone (Ø6-7cm) :</strong> Requis pour mouler et démouler parfaitement le dôme de chocolat blanc du dessert.<br><a href="https://amzn.to/4eUH8hr" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
-            <div class="carousel-slide">  
+            <div class="carousel-slide"> 
+                <div class="produit-card"> 
                 <img src="images/mouleRectangle.jpg" alt="Moule rectangle" width="50%" height="auto">
                 <strong>Moule rectangle en silicone :</strong> Requis pour mouler et démouler parfaitement le flan de légumes.<br><a href="https://amzn.to/4oZsaeL" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">
+                <div class="produit-card">
                 <img src="images/balance.jpg" alt="Balance de précision" width="50%" height="auto">
                 <strong>Balance de précision :</strong> Requis pour peser les ingrédients avec exactitude.<br><a href="https://amzn.to/3TewV89" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">
+                <div class="produit-card">
                 <img src="images/mixeurPlongeant.jpg" alt="Mixeur plongeant" width="50%" height="auto">
                 <strong>Mixeur plongeant :</strong> Requis pour mixer les ingrédients de manière uniforme et réaliser la crème de sous bois.<br><a href="https://amzn.to/4wnNnBu" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">
+                <div class="produit-card">
                 <img src="images/sorbetiere.jpg" alt="Sorbetière" width="50%" height="auto">
                 <strong>Sorbetière :</strong> Idéale pour confectionner le sorbet au citron.<br><a href="https://amzn.to/4v5oU2V" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">   
+                <div class="produit-card">
                 <img src="images/emportePiece.jpg" alt="Emporte-pièces" width="50%" height="auto">
                 <strong>Emporte-pièces (Ø8cm):</strong> Pratique pour dresser le risotto et pour faconner le sablé.<br><a href="https://amzn.to/4eHceu7" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">   
+                <div class="produit-card">
                 <img src="images/couteau.jpg" alt="Couteau de chef" width="50%" height="auto">
                 <strong>Couteau de chef :</strong> Essentiel pour découper et préparer les ingrédients.<br><a href="https://amzn.to/4giEWCP" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
         </div>
         <!-- Boutons de navigation (Optionnel mais recommandé) -->
@@ -145,28 +161,40 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <div class="carousel-container">
         <div class="carousel-track">
             <div class="carousel-slide">
+                <div class="produit-card">
                 <img src="images/riz.jpg" alt="Riz Arborio" width="50%" height="auto">
                 <strong>Riz Arborio (AOP) :</strong> Seuls ces riz confèrent le crémeux inimitable du grand risotto italien sans s'écraser.<br><a href="https://amzn.to/44EoJka" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">
+                <div class="produit-card">
                 <img src="images/safran.jpg" alt="Safran" width="50%" height="auto">
                 <strong>Safran en poudre :</strong> La poudre diluée dans le bouillon apporte un parfum noble et une couleur d'or.<br><a href="https://amzn.to/4ausqfJ" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
-            <div class="carousel-slide">   
+            <div class="carousel-slide">
+                <div class="produit-card">  
                 <img src="images/feveTonka.jpg" alt="Fève Tonka" width="50%" height="auto">
                 <strong>Fève Tonka entière :</strong> À râper au dernier moment sur la courge pour développer des notes d'amande et de vanille sauvage.<br><a href="https://amzn.to/4auipiK" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
-            <div class="carousel-slide">   
+            <div class="carousel-slide">
+                <div class="produit-card">  
                 <img src="images/chocolatBlanc.jpg" alt="Chocolat Blanc" width="50%" height="auto">
                 <strong>Chocolat Blanc :</strong> Idéal pour la préparation du dôme de chocolat blanc du dessert.<br><a href="https://amzn.to/4gToity" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">   
+                <div class="produit-card">
                 <img src="images/gelatine.jpg" alt="Gélatine" width="50%" height="auto">
                 <strong>Gélatine :</strong> Essentielle pour la préparation de la mousse bavaroise aux fruits rouges.<br><a href="https://amzn.to/44dVuoa" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
             <div class="carousel-slide">   
+                <div class="produit-card">
                 <img src="images/agar.jpg" alt="Agar-Agar" width="50%" height="auto">
                 <strong>Agar-Agar :</strong> Alternative végétarienne pour la préparation de mousse bavaroise.<br><a href="https://amzn.to/4wtfak9" target="_blank" class="btn-principal">Commandez</a>
+                </div>
             </div>
         </div>
         <!-- Boutons de navigation (Optionnel mais recommandé) -->

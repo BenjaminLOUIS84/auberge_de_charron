@@ -60,7 +60,8 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!--<iframe src="https://youtube.com/embed/pDVCWKru7iQ?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>-->
         <video src="videos/video0.1.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature1.jpg" width="100%" height="auto"></video>
     </div>
-
+    <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
+    
     <!-- VIDÉO 2 -->
     <h3>📹 Vidéo 2 : La Préparation du Plat (Option Mer)</h3>
     <p><strong>Au programme :</strong> Maîtrise des cuissons (Cabillaud en croûte d'Émeraude), réalisation du risotto au Safran, du flan de légumes et technique de la sauce Beurre Blanc Echalote.</p>
@@ -69,6 +70,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- Remplacer ID_YOUTUBE_2 par l'identifiant -->
         <video src="videos/video0.2.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature2.jpg" width="100%" height="auto"></video>
     </div>
+    <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
 
     <!-- VIDÉO 3 -->
     <h3>📹 Vidéo 3 : La Préparation du Plat (Option Terre)</h3>
@@ -78,6 +80,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- Remplacer ID_YOUTUBE_3 par l'identifiant -->
         <video src="videos/video0.3.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature3.jpg" width="100%" height="auto"></video>
     </div>
+    <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
 
     <!-- VIDÉO 4 -->
     <h3>📹 Vidéo 4 : La Préparation du Dessert & Conclusion</h3>
@@ -87,6 +90,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- Remplacer ID_YOUTUBE_4 par l'identifiant -->
         <video src="videos/video0.4.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature4.jpg" width="100%" height="auto"></video>
     </div>
+    <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
 
 
     <!-- ==========================================
@@ -97,16 +101,38 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <p>Pour votre confort, j'ai sélectionné les meilleurs produits et ustensiles sur Amazon. Vous pouvez les commander directement via les liens ci-dessous.</p>
 
     <h4>Ustensiles Techniques Spécifiques</h4>
-    <ul>
-        <li><strong>Poches à douille jetables et Douilles:</strong> Idéal pour le dressage propre de la mousseline de butternut et de la mousse bavaroise.<br><a href="https://amzn.to/4vIQ54D" target="_blank" class="btn-principal">Commandez</a></li>
-        <li><strong>Moule demi-sphères en silicone (Ø6-7cm) :</strong> Requis pour mouler et démouler parfaitement le dôme de chocolat blanc du dessert.<br><a href="https://amzn.to/4eUH8hr" target="_blank" class="btn-principal">Commandez</a></li>
-        <li><strong>Moule rectangle en silicone :</strong> Requis pour mouler et démouler parfaitement le flan de légumes.<br><a href="https://amzn.to/4oZsaeL" target="_blank" class="btn-principal">Commandez</a></li>
-        <li><strong>Balance de précision :</strong> Requis pour peser les ingrédients avec exactitude.<br><a href="https://amzn.to/3TewV89" target="_blank" class="btn-principal">Commandez</a></li>
-        <li><strong>Mixeur plongeant :</strong> Requis pour mixer les ingrédients de manière uniforme et réaliser la crème de sous bois.<br><a href="https://amzn.to/4wnNnBu" target="_blank" class="btn-principal">Commandez</a></li>
-        <li><strong>Sorbetière :</strong> Idéale pour confectionner le sorbet au citron.<br><a href="https://amzn.to/4v5oU2V" target="_blank" class="btn-principal">Commandez</a></li>
-        <li><strong>Emporte-pièces (Ø8cm):</strong> Pratique pour dresser le risotto et pour faconner le sablé.<br><a href="https://amzn.to/4eHceu7" target="_blank" class="btn-principal">Commandez</a></li>
-        <li><strong>Couteau de chef :</strong> Essentiel pour découper et préparer les ingrédients.<br><a href="https://amzn.to/4giEWCP" target="_blank" class="btn-principal">Commandez</a></li>
-       
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="carousel-slide">
+                <strong>Poches à douille jetables et Douilles:</strong> Idéal pour le dressage propre de la mousseline de butternut et de la mousse bavaroise.<br><a href="https://amzn.to/4vIQ54D" target="_blank" class="btn-principal">Commandez</a>
+            </div>
+            <div class="carousel-slide">  
+                <strong>Moule demi-sphères en silicone (Ø6-7cm) :</strong> Requis pour mouler et démouler parfaitement le dôme de chocolat blanc du dessert.<br><a href="https://amzn.to/4eUH8hr" target="_blank" class="btn-principal">Commandez</a>
+            </div>
+            <div class="carousel-slide">  
+                <strong>Moule rectangle en silicone :</strong> Requis pour mouler et démouler parfaitement le flan de légumes.<br><a href="https://amzn.to/4oZsaeL" target="_blank" class="btn-principal">Commandez</a>
+            </div>
+            <div class="carousel-slide">
+                <strong>Balance de précision :</strong> Requis pour peser les ingrédients avec exactitude.<br><a href="https://amzn.to/3TewV89" target="_blank" class="btn-principal">Commandez</a>
+            </div>
+            <div class="carousel-slide">
+                <strong>Mixeur plongeant :</strong> Requis pour mixer les ingrédients de manière uniforme et réaliser la crème de sous bois.<br><a href="https://amzn.to/4wnNnBu" target="_blank" class="btn-principal">Commandez</a>
+            </div>
+            <div class="carousel-slide">
+                <strong>Sorbetière :</strong> Idéale pour confectionner le sorbet au citron.<br><a href="https://amzn.to/4v5oU2V" target="_blank" class="btn-principal">Commandez</a>
+             </div>
+            <div class="carousel-slide">   
+                <strong>Emporte-pièces (Ø8cm):</strong> Pratique pour dresser le risotto et pour faconner le sablé.<br><a href="https://amzn.to/4eHceu7" target="_blank" class="btn-principal">Commandez</a>
+            </div>
+            <div class="carousel-slide">   
+                <strong>Couteau de chef :</strong> Essentiel pour découper et préparer les ingrédients.<br><a href="https://amzn.to/4giEWCP" target="_blank" class="btn-principal">Commandez</a>
+            </div>
+        </div>
+        <!-- Boutons de navigation (Optionnel mais recommandé) -->
+            <button class="carousel-btn prev">❮</button>
+            <button class="carousel-btn next">❯</button>
+    </div>
+
     <h4>Épicerie Fine & Ingrédients Clés</h4>
     <ul>
         <li><strong>Riz Arborio (AOP) :</strong> Seuls ces riz confèrent le crémeux inimitable du grand risotto italien sans s'écraser.<br><a href="https://amzn.to/44EoJka" target="_blank" class="btn-principal">Commandez</a></li>
@@ -218,34 +244,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
 
 </div>
 
-<!-- ==========================================
-     SCRIPT DE PROTECTION ANTI-PARTAGE YOUTUBE
-     ========================================== -->
-<script>
-    // 1. Interdit le clic droit sur toute la page pour masquer l'inspection et les options de lien
-    document.addEventListener('contextmenu', event => event.preventDefault());
-
-    // 2. Gestion des boucliers sur les vidéos
-    // Permet de cliquer à travers une fois pour lancer le play (via l'Iframe), mais bloque les clics secondaires
-    const shields = document.querySelectorAll('.video-shield');
-    shields.forEach(shield => {
-        shield.addEventListener('mousedown', function(e) {
-            // Empêche le clic droit spécifique sur le lecteur
-            if (e.button === 2) {
-                e.preventDefault();
-                return false;
-            }
-        });
-       
-        // Optionnel : Si l'utilisateur clique sur le bouclier, on peut lui laisser gérer les contrôles au clavier
-        shield.addEventListener('click', function() {
-            this.style.pointerEvents = 'none'; // Laisse passer le clic vers YouTube pour le Play
-            setTimeout(() => {
-                this.style.pointerEvents = 'auto'; // Remet immédiatement le bouclier
-            }, 500);
-        });
-    });
-</script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

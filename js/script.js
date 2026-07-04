@@ -103,4 +103,32 @@ if (emailClient) {
     });
 }
 
+     //==========================================
+     //SCRIPT DE PROTECTION ANTI-PARTAGE YOUTUBE
+     //==========================================
+
+ // 1. Interdit le clic droit sur toute la page pour masquer l'inspection et les options de lien
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // 2. Gestion des boucliers sur les vidéos
+    // Permet de cliquer à travers une fois pour lancer le play (via l'Iframe), mais bloque les clics secondaires
+    const shields = document.querySelectorAll('.video-shield');
+    shields.forEach(shield => {
+        shield.addEventListener('mousedown', function(e) {
+            // Empêche le clic droit spécifique sur le lecteur
+            if (e.button === 2) {
+                e.preventDefault();
+                return false;
+            }
+        });
+       
+        // Optionnel : Si l'utilisateur clique sur le bouclier, on peut lui laisser gérer les contrôles au clavier
+        shield.addEventListener('click', function() {
+            this.style.pointerEvents = 'none'; // Laisse passer le clic vers YouTube pour le Play
+            setTimeout(() => {
+                this.style.pointerEvents = 'auto'; // Remet immédiatement le bouclier
+            }, 500);
+        });
+    });
+
  

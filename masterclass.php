@@ -219,37 +219,37 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <tr>
                 <td><strong>La veille (J-1)</strong></td>
                 <td>
-                    <strong>Entrée :</strong> Réaliser la crème de champignons.<br><br>
-                    <strong>Plat (option Mer):</strong>Réaliser la croûte d'herbes, tailler et cuire les légumes et faire le bouillon de volaille.<br><br>
-                    <strong>Plat (option Terre):</strong>Réaliser la mousseline de courge à la fève de Tonka, préparer la chapelure et le bouillon de volaille.<br><br>
-                    <strong>Dessert :</strong>Réaliser le sorbet, les coques en chocolat, la mousse bavaroise aux fruits rouges et réserver au congélateur. et les sablés.
+                    <strong>Entrée : </strong> Réaliser la crème de champignons.<br><br>
+                    <strong>Plat (option Mer): </strong>Réaliser la croûte d'herbes, tailler et cuire les légumes et faire le bouillon de volaille.<br><br>
+                    <strong>Plat (option Terre): </strong>Réaliser la mousseline de courge à la fève de Tonka, préparer la chapelure et le bouillon de volaille.<br><br>
+                    <strong>Dessert : </strong>Réaliser le sorbet, les coques en chocolat, la mousse bavaroise aux fruits rouges et réserver au congélateur. et les sablés.
                 </td>
             </tr>
             <tr>
                 <td><strong>Le matin (H-5)</strong></td>
                 <td>
-                    <strong>Entrée :</strong>Blanchir les pointes d'asperges et poêler les tranches de lard paysan.<br><br>
-                    <strong>Plat (option Mer):</strong>Réaliser le flan de légumes et le cuire, nacrer le risotto et déglacer au vin blanc.<br><br>
-                    <strong>Plat (option Terre):</strong>Réaliser la sauce au bleu d'Auvergne et paner les aubergines.<br><br>
-                    <strong>Dessert :</strong>Réaliser et cuire les sablés.
+                    <strong>Entrée : </strong>Blanchir les pointes d'asperges et poêler les tranches de lard paysan.<br><br>
+                    <strong>Plat (option Mer): </strong>Réaliser le flan de légumes et le cuire, nacrer le risotto et déglacer au vin blanc.<br><br>
+                    <strong>Plat (option Terre): </strong>Réaliser la sauce au bleu d'Auvergne et paner les aubergines.<br><br>
+                    <strong>Dessert : </strong>Réaliser et cuire les sablés.
                 </td>
             </tr>
             <tr>
                 <td><strong>Avant le repas (H-1)</strong></td>
                 <td>
-                    <strong>Entrée :</strong>Verser la crème aux champignons dans un rammequin, casser l'œuf et lancer la cuisson 20 minutes avant le repas.<br><br>
-                    <strong>Plat (option Mer):</strong>Terminer le risotto au safran, portionner le flan de légumes et réserver les garnitures au chaud. Assaisonner, fariner et poêler le poisson.<br><br>
-                    <strong>Plat (option Terre):</strong>Cuire au four le pavé sur une grille à 80°C, réserver au chaud la mousseline et la sauce au bleu d'Auvergne.<br><br>
-                    <strong>Dessert :</strong>Sortir les dômes du congélateur et les démouler sur les sablés bretons, réserver au frais.
+                    <strong>Entrée : </strong>Verser la crème aux champignons dans un rammequin, casser l'œuf et lancer la cuisson 20 minutes avant le repas.<br><br>
+                    <strong>Plat (option Mer): </strong>Terminer le risotto au safran, portionner le flan de légumes et réserver les garnitures au chaud. Assaisonner, fariner et poêler le poisson.<br><br>
+                    <strong>Plat (option Terre): </strong>Cuire au four le pavé sur une grille à 80°C, réserver au chaud la mousseline et la sauce au bleu d'Auvergne.<br><br>
+                    <strong>Dessert : </strong>Sortir les dômes du congélateur et les démouler sur les sablés bretons, réserver au frais.
                 </td>
             </tr>
             <tr>
                 <td><strong>Pendant le dîner</strong></td>
                 <td>
-                    <strong>Entrée :</strong>Faire les mouillettes, sortir le rammequin du four et parsemer de lard croustillant et de pointes d'asperges avant de servir.<br><br>
-                    <strong>Plat (option Mer):</strong>Cuire le poisson au four avec sa croûte, monter le beurre blanc à la minute.<br><br>
-                    <strong>Plat (option Terre):</strong>Poêler le pavé Limousin et frire les aubergines.<br><br>
-                    <strong>Dessert :</strong>Sortir le sorbet du congélateur un peu avant de façonner une boule pour servir avec le dessert.
+                    <strong>Entrée : </strong>Faire les mouillettes, sortir le rammequin du four et parsemer de lard croustillant et de pointes d'asperges avant de servir.<br><br>
+                    <strong>Plat (option Mer): </strong>Cuire le poisson au four avec sa croûte, monter le beurre blanc à la minute.<br><br>
+                    <strong>Plat (option Terre): </strong>Poêler le pavé Limousin et frire les aubergines.<br><br>
+                    <strong>Dessert : </strong>Sortir le sorbet du congélateur un peu avant de façonner une boule pour servir avec le dessert.
                 </td>
             </tr>
         </tbody>
@@ -266,7 +266,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- ENTRÉE -->
         <div class="fiche-technique">
             <h3>🍳 L'Entrée : Œuf Cocotte au Lard Paysan & Crème de sous-bois</h3>
-            <img src="images/entree.jpg" alt="Œuf Cocotte au Lard Paysan & Crème de sous-bois" width="50%" height="auto">
+            <img src="images/entree.jpg" alt="Œuf Cocotte au Lard Paysan & Crème de sous-bois" width="100%" height="auto">
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Cuisson: Bain-Marie 120°C</span></p>
             <p><strong>Ingrédients :</strong> 4 œufs extra-frais, 150g de poitrine de lard paysan, 300g de champignons des bois, 20cl de vin blanc sec, 20cl de crème liquide 35% MG, 1 gousse d'ail, persil, 1 botte d'asperges vertes, sel fin, poivre.</p>
             <ol>
@@ -280,7 +280,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- PLAT MER -->
         <div class="fiche-technique">
             <h3>🐟 Le Plat Mer : L'Or Blanc en Croûte d'Émeraude & Risotto au Safran</h3>
-            <img src="images/platMer.jpg" alt="L'Or Blanc en Croûte d'Émeraude & Risotto au Safran" width="50%" height="auto">
+            <img src="images/platMer.jpg" alt="L'Or Blanc en Croûte d'Émeraude & Risotto au Safran" width="100%" height="auto">
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 200°C</span></p>
             <p><strong>Ingrédients :</strong> 4 dos de cabillaud, 50g de beurre, 50g de chapelure, persil, estragon, 250g de riz Arborio, 1L de bouillon de volaille, safran, 1 oignon, vin blanc, parmesan.</p>
             <ol>
@@ -294,7 +294,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- PLAT TERRE -->
         <div class="fiche-technique" style="border-left: 3px solid var(--gold);">
             <h3>🥩 Option Terre : Le Pavé Limousin & son Jardin d'Automne</h3>
-            <img src="images/plat_terre.jpg" alt="Le Pavé Limousin & son Jardin d'Automne" width="50%" height="auto">
+            <img src="images/plat_terre.jpg" alt="Le Pavé Limousin & son Jardin d'Automne" width="100%" height="auto">
             <p><span class="badge">Alternative Viande</span> <span class="badge">Pour 4 personnes</span></p>
             <p><strong>Ingrédients :</strong> 4 pavés de rumsteck Limousin, 1 courge butternut, 1 fève tonka, 2 aubergines, persil, ail, chapelure Panko, 100g de Bleu d'Auvergne, fond de veau.</p>
             <ol>
@@ -307,7 +307,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
 
         <!-- DESSERT -->
         <div class="fiche-technique">
-            <img src="images/dessert.jpg" alt="Jardin Blanc & Fraîcheur Citronnée" width="50%" height="auto">
+            <img src="images/dessert.jpg" alt="Jardin Blanc & Fraîcheur Citronnée" width="100%" height="auto">
             <h3>🍫 Le Dessert : Jardin Blanc & Fraîcheur Citronnée</h3>
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 180°C</span></p>
             <p><strong>Ingrédients :</strong> 200g de chocolat blanc, 150g de purée de fruits rouges, 1 feuille de gélatine, 100g de farine, 70g de beurre demi-sel, 40g de sucre glace, 1 jaune d'œuf, sorbet citron-basilic.</p>

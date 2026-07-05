@@ -88,7 +88,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <div class="video-wrapper">
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_4 par l'identifiant -->
-        <video src="videos/video0.4.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature4.jpg" width="100%" height="auto"></video>
+        <video src="videos/video0.4.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature4.png" width="100%" height="auto"></video>
     </div>
     <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
 
@@ -222,7 +222,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
                     <strong>Entrée : </strong> Réaliser la crème de champignons.<br><br>
                     <strong>Plat (option Mer): </strong>Réaliser la croûte d'herbes, tailler et cuire les légumes et faire le bouillon de volaille.<br><br>
                     <strong>Plat (option Terre): </strong>Réaliser la mousseline de courge à la fève de Tonka, préparer la chapelure et le bouillon de volaille.<br><br>
-                    <strong>Dessert : </strong>Réaliser le sorbet, les coques en chocolat, la mousse bavaroise aux fruits rouges et réserver au congélateur. et les sablés.
+                    <strong>Dessert : </strong>Réaliser le sorbet, les coques en chocolat, la mousse bavaroise aux fruits rouges et réserver au congélateur.
                 </td>
             </tr>
             <tr>
@@ -310,12 +310,15 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <h3>🍫 Le Dessert : Jardin Blanc & Fraîcheur Citronnée</h3>
             <img src="images/dessert.jpg" alt="Jardin Blanc & Fraîcheur Citronnée" width="100%" height="auto">
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 180°C</span></p>
-            <p><strong>Ingrédients :</strong> 200g de chocolat blanc, 150g de purée de fruits rouges, 1 feuille de gélatine, 100g de farine, 70g de beurre demi-sel, 40g de sucre glace, 1 jaune d'œuf, sorbet citron-basilic.</p>
+            <p><strong>Ingrédients :</strong> Coques en Chocolat : 200g de chocolat blanc<br>
+            Mousse Bavaroise aux Fruits rouges :  150g de purée de fruits rouges, 1 feuille de gélatine, 150gr de chantilly, 1 cuillère à soupe de sucre glace<br>
+            Sablé Breton : 100g de farine, 70g de beurre, 1 pincée de gros sel, 1 jaune d'œuf<br>
+            Sorbet citron-basilic : 200ml de jus de citron, 10g de feuilles de basilic frais, 250gr Sucre, 150gr d'eau</p>
             <ol>
+                <li><strong>La Coque :</strong> Badigeonner les moules demi-sphères de chocolat blanc fondu. Figer au congelateur.</li>
                 <li><strong>L'Insert :</strong> Dissoudre la gélatine hydratée dans la purée de fruits rouges chaude. Couler en mini-moules et congeler 3h.</li>
-                <li><strong>La Coque :</strong> Badigeonner les moules demi-sphères de chocolat blanc fondu. Figer au frais. Garnir de mousse vanillée en y plaçant l'insert congelé au centre.</li>
                 <li><strong>Sablé Breton :</strong> Sabler farine, sucre, beurre. Lier au jaune d'œuf. Étaler sur 5mm, détailler et cuire à 180°C pendant 12 à 15 min.</li>
-                <li><strong>Dressage :</strong> Poser le dôme démoulé sur le sablé breton, laisser revenir à température 15 min, servir avec une quenelle de sorbet.</li>
+                <li><strong>Dressage :</strong> Poser le dôme démoulé sur le sablé breton, laisser revenir à température 15 min, servir avec une boule de sorbet.</li>
             </ol>
         </div>
 

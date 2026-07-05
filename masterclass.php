@@ -307,8 +307,8 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
 
         <!-- DESSERT -->
         <div class="fiche-technique">
-            <img src="images/dessert.jpg" alt="Jardin Blanc & Fraîcheur Citronnée" width="100%" height="auto">
             <h3>🍫 Le Dessert : Jardin Blanc & Fraîcheur Citronnée</h3>
+            <img src="images/dessert.jpg" alt="Jardin Blanc & Fraîcheur Citronnée" width="100%" height="auto">
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 180°C</span></p>
             <p><strong>Ingrédients :</strong> 200g de chocolat blanc, 150g de purée de fruits rouges, 1 feuille de gélatine, 100g de farine, 70g de beurre demi-sel, 40g de sucre glace, 1 jaune d'œuf, sorbet citron-basilic.</p>
             <ol>

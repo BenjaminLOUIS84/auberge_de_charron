@@ -310,10 +310,11 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <h3>🍫 Le Dessert : Jardin Blanc & Fraîcheur Citronnée</h3>
             <img src="images/dessert.jpg" alt="Jardin Blanc & Fraîcheur Citronnée" width="100%" height="auto">
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 180°C</span></p>
-            <p><strong>Ingrédients :</strong> Coques en Chocolat : 200g de chocolat blanc<br>
-            Mousse Bavaroise aux Fruits rouges :  150g de purée de fruits rouges, 1 feuille de gélatine, 150gr de chantilly, 1 cuillère à soupe de sucre glace<br>
-            Sablé Breton : 100g de farine, 70g de beurre, 1 pincée de gros sel, 1 jaune d'œuf<br>
-            Sorbet citron-basilic : 200ml de jus de citron, 10g de feuilles de basilic frais, 250gr Sucre, 150gr d'eau</p>
+            <p><strong>Ingrédients :</strong><br>
+            Coques en Chocolat :<br>- 200g de chocolat blanc<br>
+            Mousse Bavaroise aux Fruits rouges :<br>-  150g de purée de fruits rouges<br>- 1 feuille de gélatine<br>- 150gr de chantilly<br>- 1 cuillère à soupe de sucre glace<br>
+            Sablé Breton :<br>- 100g de farine<br>- 70g de beurre<br>- 1 pincée de gros sel<br>- 1 jaune d'œuf<br>
+            Sorbet citron-basilic :<br>- 200ml de jus de citron<br>- 10g de feuilles de basilic frais<br>- 250gr Sucre<br>- 150gr d'eau</p>
             <ol>
                 <li><strong>La Coque :</strong> Badigeonner les moules demi-sphères de chocolat blanc fondu. Figer au congelateur.</li>
                 <li><strong>L'Insert :</strong> Dissoudre la gélatine hydratée dans la purée de fruits rouges chaude. Couler en mini-moules et congeler 3h.</li>

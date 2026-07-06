@@ -377,13 +377,13 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     - Les fiches techniques sont fournies à titre indicatif. Les temps de cuisson peuvent varier selon le matériel et les ingrédients utilisés. Ajustez selon votre expérience et vos préférences.<br>
     - Pour toute question ou assistance, n'hésitez pas à contacter notre support technique via le formulaire de contact sur notre site.<br>
     - Les vidéos et fiches techniques sont la propriété intellectuelle de l'Auberge de Charron. Toute reproduction, distribution ou partage non autorisé est strictement interdit.<br>
-    - Décline toute responsabilité en cas de mauvaise manipulation, d'empoisonnement ou d'accident en cuisine. Suivez les instructions avec précaution et respectez les règles de sécurité alimentaire.</p>
+    - Nous déclinons toute responsabilité en cas de mauvaise manipulation, d'empoisonnement ou d'accident en cuisine. Suivez les instructions avec précaution et respectez les règles de sécurité alimentaire.</p>
    
     <div class="produit-card">
         <p><strong>⚠️ Important :</strong> Pour garantir la sécurité alimentaire et la qualité de vos préparations, il est essentiel de suivre les bonnes pratiques d'hygiène et de sécurité en cuisine. Nous vous recommandons vivement de consulter le Guide HACCP pour vous assurer que toutes les étapes de préparation, cuisson et conservation des aliments sont conformes aux normes sanitaires.</p>
         <a href="pdf/guideHaccp.pdf" target="_blank" class="btn-principal">Consulter le Guide HACCP en ligne</a>
     </div>
-    
+
 </div>
 
 <script src="js/script.js"></script>

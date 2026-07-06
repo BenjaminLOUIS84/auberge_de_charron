@@ -379,6 +379,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     - Les vidéos et fiches techniques sont la propriété intellectuelle de l'Auberge de Charron. Toute reproduction, distribution ou partage non autorisé est strictement interdit.<br>
     - Décline toute responsabilité en cas de mauvaise manipulation, d'empoisonnement ou d'accident en cuisine. Suivez les instructions avec précaution et respectez les règles de sécurité alimentaire.</p>
 
+     <a href="pdf/guideHaccp.pdf" target="_blank" class="btn-principal">Consulter le Guide HACCP en ligne</a>
 </div>
 
 <script src="js/script.js"></script>

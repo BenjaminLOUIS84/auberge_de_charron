@@ -267,14 +267,14 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <div class="fiche-technique">
             <h3>🍳 L'Entrée : Œuf Cocotte au Lard Paysan & Crème de sous-bois</h3>
             <img src="images/entree.jpg" alt="Œuf Cocotte au Lard Paysan & Crème de sous-bois" width="100%" height="auto">
-            <p><span class="badge">Pour 4 personnes</span> <span class="badge">Cuisson: Bain-Marie 120°C</span></p>
+            <p><span class="badge">Pour 4 personnes</span> <span class="badge">Cuisson: Au Bain-Marie Four à 120°C</span></p>
             <p><strong>Ingrédients :</strong><br>
             - 4 œufs extra-frais<br>- 150g de poitrine de lard paysan<br>- 300g de champignons<br>- 20cl de vin blanc sec<br>- 20cl de crème liquide 35% MG<br>- 48gr de Roux<br>- 1 gousse d'ail<br>- persil<br>- 1 botte d'asperges vertes<br>- sel fin<br>- poivre</p>
             <ol>
                 
                 <li><strong>La Crème aux champignons:</strong> Sauter vivement les champignons nettoyés avec l'ail et assaisonner. Déglacer au vin blanc sec, laisser frémir 10 min, puis mixer. Ajouter le Roux et laisser frémir 5 min supplémentaires. Ajouter la crème et le persil.</li>
-                <li><strong>L'Œuf Cocotte :</strong> Dans un rammequin verser de la crème au champignons, casser un oeuf directement dessus et rajouter de la crème. Placer le rammequin dans un bain-marie régulé à 120°C pendant 15-20 minutes. Surveiller la cuisson et particulièrement la coagulation de l'oeuf.</li>
-                <li><strong>Lard & Asperges :</strong> Dorer les tranches delard à la poêle. Blanchir les pointes d'asperges 3 min à l'eau bouillante puis les glacer.</li>
+                <li><strong>L'Œuf Cocotte :</strong> Dans un rammequin verser de la crème au champignons, casser un oeuf directement dessus et rajouter de la crème. Placer le rammequin au bain-marie dans un fourrégulé à 120°C pendant 15-20 minutes. Surveiller la cuisson et particulièrement la coagulation de l'oeuf.</li>
+                <li><strong>Lard & Asperges :</strong> Dorer les tranches de lard à la poêle. Blanchir les pointes d'asperges 3 min à l'eau bouillante puis les glacer.</li>
                 <li><strong>Les mouillettes :</strong> Couper une baguette de pain frais en tartines, beurrer et débitter des batonnets.</li>
                 <li><strong>Dressage :</strong>Mettre une serviette sur l'assiette. Sortir le rammequin du four et le poser sur la serviette, parsemer de lard et de pointes d'asperges et disposer les mouillettes.</li>
             </ol>
@@ -286,12 +286,20 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <img src="images/platMer.jpg" alt="L'Or Blanc en Croûte d'Émeraude & Risotto au Safran" width="100%" height="auto">
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 180°C</span></p>
             <p><strong>Ingrédients :</strong><br>
-            - 4 dos de cabillaud<br>- 50g de beurre<br>- 50g de chapelure<br>- persil<br>- estragon<br>- 250g de riz Arborio<br>- 1L de bouillon de volaille<br>- safran<br>- 1 oignon<br>- vin blanc<br>- parmesan.</p>
+            - 4 dos de cabillaud<br>- sel, poivre<br>- farine<br>- huile<br>
+            Coûte d'herbes :<br>- 50g de beurre<br>- 50g de chapelure<br>- 25gr d'herbes aromatiques<br>-  50g de fromage râpé<br>
+            Bouillon de volaille:<br>- 1 carotte<br>- 1 oignon<br>- bouquet garni<br>- poulet(carcasse et abatti)<br>- huile<br>- eau 1 litre<br>
+            Risotto :<br>- 400g de riz Arborio<br>- 60cl de bouillon de volaille<br>- safran<br>- 200gr d'oignons<br>- 10cl de vin blanc<br>- beurre<br>- Sel, poivre</p>
+            Flan de légumes :<br>- 4 oeufs<br>- 25cl de lait<br>- 25cl de crème liquide<br>- 30 gr de farine<br>- herbes aromatiques<br>- 1 courgette<br>- 3 cornichons<br>- 1 carotte<br>- 4gr de sel et 2gr de poivre</p>
+            Sauce beurre blanc :<br>- 40g d'echalote<br>- 2cl de vin blanc<br>- 2cl de vinaigre<br>- 200gr de beurre<br></p>
             <ol>
-                <li><strong>La Croûte :</strong> Mixer beurre, chapelure et herbes. Étaler sur 3mm entre deux feuilles de cuisson et congeler 15 min.</li>
-                <li><strong>Le Risotto :</strong> Suer l'oignon, nacrer le riz, déglacer au vin blanc. Ajouter le bouillon safrané louche après louche pendant 18 min. Lier hors du feu au parmesan et beurre.</li>
-                <li><strong>Le Cabillaud :</strong> Poser un rectangle de croûte d'herbes sur chaque dos. Enfourner à 180°C pendant 8 à 10 minutes.</li>
-                <li><strong>Dressage :</strong> Lit de risotto, cabillaud par-dessus, pickles de légumes et cordon de sauce beurre blanc.</li>
+                <li><strong>Le Cabillaud :</strong> Assaisonner et fariner le poisson. Marquer en cuisson à la poêle 2 minutes par face pour la coloration et croûte. Poser un rectangle de croûte d'herbes sur chaque dos. Enfourner à 180°C pendant 5 à 8 minutes.</li>
+                <li><strong>La Croûte :</strong> Réaliser à la main un sablage avec le beurre, la chapelure, le fromage et les herbes. Étaler sur 3mm dans un sac de congélation avec un rouleau à pâtisserie et réserver au frais.</li>
+                <li><strong>Le Bouillon de volaille :</strong> Faire revenir le poulet dans l'huile. Ajouter la carotte, l'oignon et le bouquet garni. Verser l'eau et laisser mijoter 1 heure. Laisser infuser et refroidir 20 minutes puis filtre pour recueillir le bouillon.</li>
+                <li><strong>Le Risotto :</strong> Suer l'oignon ciselé, assaisonner et nacrer le riz, déglacer au vin blanc. Ajouter le bouillon safrané et laisser mijoter pendant 17 min. Lier hors du feu au beurre.</li>
+                <li><strong>Le Flan de légumes :</strong> Cuire les légumes à l'étuvée et les refroidir. Mélanger les oeufs avec le lait, la crème et la farine. Assaisonner et ajouter les herbes. Ajouter ensuite les légumes cuits et verser la préparation dans un moule rectangle en silicone. Cuire au four à 180°C pendant 20 minutes.</li>
+                <li><strong>La Sauce Beurre Blanc :</strong> Suer les échalotes ciselées, déglacer au vin blanc et au vinaigre puis faire réduire. Monter au beurre froid en fouettant.</li>
+                <li><strong>Dressage :</strong> Garnir un emporte-pièce de risotto, poser le cabillaud à côté, poser le flan de légumes et verser le cordon de sauce beurre blanc sur le poisson. Ajouter un quartier de citron</li>
             </ol>
         </div>
 
@@ -302,18 +310,18 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <p><span class="badge">Alternative Viande</span> <span class="badge">Pour 4 personnes</span></p> <span class="badge">Four: 80°C</span></p>
             <p><strong>Ingrédients :</strong><br>
             - 4 pavés de rumsteck Limousin<br>
-            Mousseline :<br>- 1 courge butternut<br>- 4 Pomme de terre<br>- 1 fève tonka<br>- 20cl de crème liquide<br>- 50g de beurre<br>- Sel, poivre<br>
+            Mousseline :<br>- 1 courge butternut (ou à défaut des carottes ou de la patate douce)<br>- 4 Pomme de terre<br>- 1 fève tonka<br>- 20cl de crème liquide<br>- 50g de beurre<br>- Sel, poivre<br>
             Beignets d'Aubergine :<br>- 1 aubergine<br>- du persil et 2 gousses d'ail<br>- chapelure<br>- 1 œuf<br>- farine<br>- Huile de friture<br>- Sel, poivre<br>
-            Sauce au Bleu d'Auvergne :<br>- 100g de Bleu d'Auvergne<br>- 20cl de fond de volaille<br>- 10cl de crème liquide<br>- 22gr de Roux<br>- Sel, poivre<br></p>
-            Sauce au Poivre :<br>- 30g de Poivre<br>- 5cl de Cognac<br>- 30cl de crème liquide<br>- 22gr de Roux<br>- Sel<br></p>
+            Sauce au Bleu d'Auvergne :<br>- 100g de Bleu d'Auvergne<br>- 20cl de fond de volaille<br>- 10cl de crème liquide<br>- 22gr de Roux<br>- Sel, poivre<br>
+            Sauce au Poivre :<br>- Entre 10 et 30g de Poivre (selon le goût)<br>- 5cl de Cognac<br>- 30cl de crème liquide<br>- 22gr de Roux<br>- Sel<br></p>
         
             <ol>
                 <li><strong>Pavé de rumsteck Limousin :</strong> Sortir du réfrigérateur 20 minutes avant de cuire au four à 80°C pendant une heure. Réserver au chaud avant de saisir les pavés 2 à 3 min par face au beurre moussant. Laisser reposer 5 min.</li>
-                <li><strong>Mousseline :</strong> Cuire la courge butternut et les pommes de terre à l'étuvée avec du beurre. Mixer longuement avec de la crème, le beurre râper un tiers de fève tonka.</li>
+                <li><strong>Mousseline :</strong> Cuire la courge butternut et les pommes de terre à la vapeur ou dans l'eau bouillante(cuire à l'anglaise). Assaisonner et râper un tiers de fève tonka sur les légumes cuits. Mixer longuement avec de la crème, le beurre.</li>
                 <li><strong>Beignets d'Aubergine :</strong> Passer les rondelles d'aubergine dégorgées dans la farine, dans l'anglaise à la persillade, puis la chapelure. Frire jusqu'à coloration.</li>
                 <li><strong>Sauce au Bleu :</strong> Réduire le fond de volaille et y faire fondre le Bleu d'Auvergne à feu doux en fouettant. Ajouter le roux, assaisonner et ajouter la crème.</li>
                 <li><strong>Sauce au Poivre :</strong> Torréfier le Poivre à feu vif puis flamber au cognac. Ajouter le roux, assaisonner et ajouter la crème.</li>
-                <li><strong>Dressage :</strong>Dresser en virgule de mousseline, deux beignets et le pavé nappé de sauce.</li>
+                <li><strong>Dressage :</strong>Dresser une virgule de mousseline, poserdeux beignets d'aubergine et le pavé nappé de sauce.</li>
             </ol>
         </div>
 
@@ -335,8 +343,41 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
                 <li><strong>Dressage :</strong> Poser le dôme démoulé sur le sablé breton, laisser revenir à température 15 min, servir avec une boule de sorbet.</li>
             </ol>
         </div>
+        <!-- ASTUCE EXCLUSIVE -->
+        <!-- VIDÉO 5 -->
+        <h3>Une petite surprise rien que pour vous !</h3>
+        <div class="video-wrapper">
+            <div class="video-shield"></div>
+            <video src="videos/video5.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature5.jpg" width="100%" height="auto"></video>
+        </div>
+        <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p><br>
+        <div class="fiche-technique">
+            <h3>ASTUCE EXCLUSIVE : La préparation & l'utilisation du ROUX en cuisine</h3>
+            <img src="images/roux.jpg" alt="Roux" width="100%" height="auto">
+            <p><span class="badge">PROPORTIONS</span></p><br>
+            <p>75gr de Roux pour 1L de liquide permet de réaliser un velouté</p>
+            <p>125gr de Roux pour 1L de liquide permet de réaliser un gratin</p>
+            <p><strong>Ingrédients :</strong><br>
+            - 200g de beurre<br>
+            - 200g de farine<br></p><br>
+            <p>Le Roux est un mélange de beurre et de farine utilisé pour épaissir les sauces et les soupes.<br> 
+            Il existe trois types de roux : blanc, blond et brun, chacun ayant une couleur et un goût distincts.</p>
+           
+            <ol>
+                <li><strong>Le Roux Blanc :</strong> Faire fondre le beurre dans une casserole, ajouter la farine et mélanger jusqu'à obtenir une pâte homogène. Cuire légèrement en remuant constamment. Durée de cuisson : 5 à 10 minutes.</li>
+                <li><strong>Le Roux Blond:</strong> Durée de cuisson : 10 à 15 minutes.</li>
+                <li><strong>Le Roux Brun:</strong> Durée de cuisson : 15 à 20 minutes.</li>
+                <li><strong>Le choc thermique pour créer l'épaississement :</strong> Verser le roux chaud dans un liquide froid ou vice-versa.</li>
+
+            </ol>
+        </div>
 
     </div>
+    <p><strong>Notes :</strong><br>
+    - Les fiches techniques sont fournies à titre indicatif. Les temps de cuisson peuvent varier selon le matériel et les ingrédients utilisés. Ajustez selon votre expérience et vos préférences.<br>
+    - Pour toute question ou assistance, n'hésitez pas à contacter notre support technique via le formulaire de contact sur notre site.<br>
+    - Les vidéos et fiches techniques sont la propriété intellectuelle de l'Auberge de Charron. Toute reproduction, distribution ou partage non autorisé est strictement interdit.<br>
+    - Décline toute responsabilité en cas de mauvaise manipulation, d'empoisonnement ou d'accident en cuisine. Suivez les instructions avec précaution et respectez les règles de sécurité alimentaire.</p>
 
 </div>
 

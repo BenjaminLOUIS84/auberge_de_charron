@@ -359,7 +359,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <p>125gr de Roux pour 1L de liquide permet de réaliser un gratin</p>
             <p><strong>Ingrédients :</strong><br>
             - 200g de beurre<br>
-            - 200g de farine<br></p><br>
+            - 200g de farine<br></p>
             <p>Le Roux est un mélange de beurre et de farine utilisé pour épaissir les sauces et les soupes. 
             Il existe trois types de roux : blanc, blond et brun, chacun ayant une couleur et un goût distincts.</p>
            
@@ -378,8 +378,12 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     - Pour toute question ou assistance, n'hésitez pas à contacter notre support technique via le formulaire de contact sur notre site.<br>
     - Les vidéos et fiches techniques sont la propriété intellectuelle de l'Auberge de Charron. Toute reproduction, distribution ou partage non autorisé est strictement interdit.<br>
     - Décline toute responsabilité en cas de mauvaise manipulation, d'empoisonnement ou d'accident en cuisine. Suivez les instructions avec précaution et respectez les règles de sécurité alimentaire.</p>
-
-     <a href="pdf/guideHaccp.pdf" target="_blank" class="btn-principal">Consulter le Guide HACCP en ligne</a>
+   
+    <div class="produit-card">
+        <p><strong>⚠️ Important :</strong> Pour garantir la sécurité alimentaire et la qualité de vos préparations, il est essentiel de suivre les bonnes pratiques d'hygiène et de sécurité en cuisine. Nous vous recommandons vivement de consulter le Guide HACCP pour vous assurer que toutes les étapes de préparation, cuisson et conservation des aliments sont conformes aux normes sanitaires.</p>
+        <a href="pdf/guideHaccp.pdf" target="_blank" class="btn-principal">Consulter le Guide HACCP en ligne</a>
+    </div>
+    
 </div>
 
 <script src="js/script.js"></script>

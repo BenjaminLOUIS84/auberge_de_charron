@@ -345,22 +345,22 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         </div>
         <!-- ASTUCE EXCLUSIVE -->
         <!-- VIDÉO 5 -->
-        <h3>Une petite surprise rien que pour vous !</h3>
+        <h3>Et enfin, une petite surprise rien que pour vous !</h3>
         <div class="video-wrapper">
             <div class="video-shield"></div>
             <video src="videos/video5.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature5.jpg" width="100%" height="auto"></video>
         </div>
-        <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p><br>
+        <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
         <div class="fiche-technique">
             <h3>ASTUCE EXCLUSIVE : La préparation & l'utilisation du ROUX en cuisine</h3>
             <img src="images/roux.jpg" alt="Roux" width="100%" height="auto">
-            <p><span class="badge">PROPORTIONS</span></p><br>
+            <p><span class="badge">PROPORTIONS</span></p>
             <p>75gr de Roux pour 1L de liquide permet de réaliser un velouté</p>
             <p>125gr de Roux pour 1L de liquide permet de réaliser un gratin</p>
             <p><strong>Ingrédients :</strong><br>
             - 200g de beurre<br>
             - 200g de farine<br></p><br>
-            <p>Le Roux est un mélange de beurre et de farine utilisé pour épaissir les sauces et les soupes.<br> 
+            <p>Le Roux est un mélange de beurre et de farine utilisé pour épaissir les sauces et les soupes. 
             Il existe trois types de roux : blanc, blond et brun, chacun ayant une couleur et un goût distincts.</p>
            
             <ol>

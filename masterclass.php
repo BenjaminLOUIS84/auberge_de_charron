@@ -268,12 +268,15 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             <h3>🍳 L'Entrée : Œuf Cocotte au Lard Paysan & Crème de sous-bois</h3>
             <img src="images/entree.jpg" alt="Œuf Cocotte au Lard Paysan & Crème de sous-bois" width="100%" height="auto">
             <p><span class="badge">Pour 4 personnes</span> <span class="badge">Cuisson: Bain-Marie 120°C</span></p>
-            <p><strong>Ingrédients :</strong> 4 œufs extra-frais, 150g de poitrine de lard paysan, 300g de champignons des bois, 20cl de vin blanc sec, 20cl de crème liquide 35% MG, 1 gousse d'ail, persil, 1 botte d'asperges vertes, sel fin, poivre.</p>
+            <p><strong>Ingrédients :</strong><br>
+            - 4 œufs extra-frais<br>- 150g de poitrine de lard paysan<br>- 300g de champignons<br>- 20cl de vin blanc sec<br>- 20cl de crème liquide 35% MG<br>- 48gr de Roux<br>- 1 gousse d'ail<br>- persil<br>- 1 botte d'asperges vertes<br>- sel fin<br>- poivre</p>
             <ol>
-                <li><strong>L'Œuf Parfait :</strong> Placer les œufs entiers avec leur coquille dans un bain-marie régulé à 120°C pendant 45 minutes.</li>
-                <li><strong>La Crème :</strong> Sauter vivement les champignons nettoyés avec l'ail. Mouiller à la crème, laisser frémir 10 min, puis mixer puissamment.</li>
-                <li><strong>Lard & Asperges :</strong> Dorer les lardons à la poêle. Blanchir les pointes d'asperges 3 min à l'eau bouillante puis les glacer.</li>
-                <li><strong>Dressage :</strong> Verser la crème chaude, écaler délicatement l'œuf au centre, parsemer de lard et disposer les asperges.</li>
+                
+                <li><strong>La Crème aux champignons:</strong> Sauter vivement les champignons nettoyés avec l'ail et assaisonner. Déglacer au vin blanc sec, laisser frémir 10 min, puis mixer. Ajouter le Roux et laisser frémir 5 min supplémentaires. Ajouter la crème et le persil.</li>
+                <li><strong>L'Œuf Cocotte :</strong> Dans un rammequin verser de la crème au champignons, casser un oeuf directement dessus et rajouter de la crème. Placer le rammequin dans un bain-marie régulé à 120°C pendant 15-20 minutes. Surveiller la cuisson et particulièrement la coagulation de l'oeuf.</li>
+                <li><strong>Lard & Asperges :</strong> Dorer les tranches delard à la poêle. Blanchir les pointes d'asperges 3 min à l'eau bouillante puis les glacer.</li>
+                <li><strong>Les mouillettes :</strong> Couper une baguette de pain frais en tartines, beurrer et débitter des batonnets.</li>
+                <li><strong>Dressage :</strong>Mettre une serviette sur l'assiette. Sortir le rammequin du four et le poser sur la serviette, parsemer de lard et de pointes d'asperges et disposer les mouillettes.</li>
             </ol>
         </div>
 
@@ -281,12 +284,13 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <div class="fiche-technique">
             <h3>🐟 Le Plat Mer : L'Or Blanc en Croûte d'Émeraude & Risotto au Safran</h3>
             <img src="images/platMer.jpg" alt="L'Or Blanc en Croûte d'Émeraude & Risotto au Safran" width="100%" height="auto">
-            <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 200°C</span></p>
-            <p><strong>Ingrédients :</strong> 4 dos de cabillaud, 50g de beurre, 50g de chapelure, persil, estragon, 250g de riz Arborio, 1L de bouillon de volaille, safran, 1 oignon, vin blanc, parmesan.</p>
+            <p><span class="badge">Pour 4 personnes</span> <span class="badge">Four: 180°C</span></p>
+            <p><strong>Ingrédients :</strong><br>
+            - 4 dos de cabillaud<br>- 50g de beurre<br>- 50g de chapelure<br>- persil<br>- estragon<br>- 250g de riz Arborio<br>- 1L de bouillon de volaille<br>- safran<br>- 1 oignon<br>- vin blanc<br>- parmesan.</p>
             <ol>
                 <li><strong>La Croûte :</strong> Mixer beurre, chapelure et herbes. Étaler sur 3mm entre deux feuilles de cuisson et congeler 15 min.</li>
                 <li><strong>Le Risotto :</strong> Suer l'oignon, nacrer le riz, déglacer au vin blanc. Ajouter le bouillon safrané louche après louche pendant 18 min. Lier hors du feu au parmesan et beurre.</li>
-                <li><strong>Le Cabillaud :</strong> Poser un rectangle de croûte d'herbes sur chaque dos. Enfourner à 200°C pendant 8 à 10 minutes.</li>
+                <li><strong>Le Cabillaud :</strong> Poser un rectangle de croûte d'herbes sur chaque dos. Enfourner à 180°C pendant 8 à 10 minutes.</li>
                 <li><strong>Dressage :</strong> Lit de risotto, cabillaud par-dessus, pickles de légumes et cordon de sauce beurre blanc.</li>
             </ol>
         </div>
@@ -294,14 +298,22 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <!-- PLAT TERRE -->
         <div class="fiche-technique" style="border-left: 3px solid var(--gold);">
             <h3>🥩 Option Terre : Le Pavé Limousin & son Jardin d'Automne</h3>
-            <img src="images/plat_terre.jpg" alt="Le Pavé Limousin & son Jardin d'Automne" width="100%" height="auto">
-            <p><span class="badge">Alternative Viande</span> <span class="badge">Pour 4 personnes</span></p>
-            <p><strong>Ingrédients :</strong> 4 pavés de rumsteck Limousin, 1 courge butternut, 1 fève tonka, 2 aubergines, persil, ail, chapelure Panko, 100g de Bleu d'Auvergne, fond de veau.</p>
+            <img src="images/platTerre.jpg" alt="Le Pavé Limousin & son Jardin d'Automne" width="100%" height="auto">
+            <p><span class="badge">Alternative Viande</span> <span class="badge">Pour 4 personnes</span></p> <span class="badge">Four: 80°C</span></p>
+            <p><strong>Ingrédients :</strong><br>
+            - 4 pavés de rumsteck Limousin<br>
+            Mousseline :<br>- 1 courge butternut<br>- 4 Pomme de terre<br>- 1 fève tonka<br>- 20cl de crème liquide<br>- 50g de beurre<br>- Sel, poivre<br>
+            Beignets d'Aubergine :<br>- 1 aubergine<br>- du persil et 2 gousses d'ail<br>- chapelure<br>- 1 œuf<br>- farine<br>- Huile de friture<br>- Sel, poivre<br>
+            Sauce au Bleu d'Auvergne :<br>- 100g de Bleu d'Auvergne<br>- 20cl de fond de volaille<br>- 10cl de crème liquide<br>- 22gr de Roux<br>- Sel, poivre<br></p>
+            Sauce au Poivre :<br>- 30g de Poivre<br>- 5cl de Cognac<br>- 30cl de crème liquide<br>- 22gr de Roux<br>- Sel<br></p>
+        
             <ol>
-                <li><strong>Mousseline :</strong> Cuire la courge butternut à l'étuvée avec du beurre. Mixer longuement avec de la crème et râper un tiers de fève tonka.</li>
-                <li><strong>Beignets d'Aubergine :</strong> Passer les rondelles d'aubergine dégorgées dans la farine, l'œuf à la persillade, puis le Panko. Frire jusqu'à coloration.</li>
-                <li><strong>Sauce au Bleu :</strong> Réduire le fond de veau et y faire fondre le Bleu d'Auvergne à feu doux en fouettant.</li>
-                <li><strong>Viande & Dressage :</strong> Saisir les pavés 2 à 3 min par face au beurre moussant. Laisser reposer 5 min. Dresser en virgule de mousseline, deux beignets et le pavé nappé de sauce.</li>
+                <li><strong>Pavé de rumsteck Limousin :</strong> Sortir du réfrigérateur 20 minutes avant de cuire au four à 80°C pendant une heure. Réserver au chaud avant de saisir les pavés 2 à 3 min par face au beurre moussant. Laisser reposer 5 min.</li>
+                <li><strong>Mousseline :</strong> Cuire la courge butternut et les pommes de terre à l'étuvée avec du beurre. Mixer longuement avec de la crème, le beurre râper un tiers de fève tonka.</li>
+                <li><strong>Beignets d'Aubergine :</strong> Passer les rondelles d'aubergine dégorgées dans la farine, dans l'anglaise à la persillade, puis la chapelure. Frire jusqu'à coloration.</li>
+                <li><strong>Sauce au Bleu :</strong> Réduire le fond de volaille et y faire fondre le Bleu d'Auvergne à feu doux en fouettant. Ajouter le roux, assaisonner et ajouter la crème.</li>
+                <li><strong>Sauce au Poivre :</strong> Torréfier le Poivre à feu vif puis flamber au cognac. Ajouter le roux, assaisonner et ajouter la crème.</li>
+                <li><strong>Dressage :</strong>Dresser en virgule de mousseline, deux beignets et le pavé nappé de sauce.</li>
             </ol>
         </div>
 
@@ -317,8 +329,9 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
             Sorbet citron-basilic :<br>- 200ml de jus de citron<br>- 10g de feuilles de basilic frais<br>- 250gr Sucre<br>- 150gr d'eau</p>
             <ol>
                 <li><strong>La Coque :</strong> Badigeonner les moules demi-sphères de chocolat blanc fondu. Figer au congelateur.</li>
-                <li><strong>L'Insert :</strong> Dissoudre la gélatine hydratée dans la purée de fruits rouges chaude. Couler en mini-moules et congeler 3h.</li>
+                <li><strong>L'Insert :</strong> Dissoudre la gélatine hydratée dans la purée de fruits rouges chaude, laisser refroidir et incorporer la chantilly. Garnir les coques et congeler 3h.</li>
                 <li><strong>Sablé Breton :</strong> Sabler farine, sucre, beurre. Lier au jaune d'œuf. Étaler sur 5mm, détailler et cuire à 180°C pendant 12 à 15 min.</li>
+                <li><strong>Sorbet citron-basilic :</strong> Faire un sirop avec le sucre et l'eau puis ajouter le jus de citron et le basilic. Attendre que la base soit froide avant de mettre dans la sorbetière. Laisser reposer 24h au congélateur.</li>
                 <li><strong>Dressage :</strong> Poser le dôme démoulé sur le sablé breton, laisser revenir à température 15 min, servir avec une boule de sorbet.</li>
             </ol>
         </div>

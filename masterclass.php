@@ -7,11 +7,12 @@
 
 $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vérification en BDD
 
-// if (!isset($_GET['token']) || $_GET['token'] !== $token_valide) {
-//     // Si le token n'est pas bon, on redirige poliment vers l'accueil
-//     header('Location: index.html');
-//     exit();
-// }
+if (!isset($_GET['token']) || $_GET['token'] !== $token_valide) {
+    // Si le token n'est pas bon, on redirige poliment vers l'accueil
+    header('Location: index.html');
+    exit();
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -58,7 +59,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
         <div class="video-shield"></div>
         <!-- Remplacer ID_YOUTUBE_1 par l'identifiant de ta vidéo non répertoriée -->
         <!--<iframe src="https://youtube.com/embed/pDVCWKru7iQ?rel=0&modestbranding=1&controls=1" frameborder="0" allowfullscreen></iframe>-->
-        <video src="videos/video0.1.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature1.jpg" width="100%" height="auto"></video>
+        <video src="videos/video1.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature1.jpg" width="100%" height="auto"></video>
     </div>
     <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
     
@@ -67,8 +68,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <p><strong>Au programme :</strong> Maîtrise des cuissons (Cabillaud en croûte d'Émeraude), réalisation du risotto au Safran, du flan de légumes et technique de la sauce Beurre Blanc Echalote.</p>
     <div class="video-wrapper">
         <div class="video-shield"></div>
-        <!-- Remplacer ID_YOUTUBE_2 par l'identifiant -->
-        <video src="videos/video0.2.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature2.jpg" width="100%" height="auto"></video>
+        <video src="videos/video2.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature2.jpg" width="100%" height="auto"></video>
     </div>
     <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
 
@@ -77,8 +77,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <p><strong>Au programme :</strong> Maîtrise des cuissons (Pavé Limousin), réalisation de la mousseline de Courge à la fève de Tonka, des beignets d'Aubergines et technique de la sauce au Bleu d'Auvergne.</p>
     <div class="video-wrapper">
         <div class="video-shield"></div>
-        <!-- Remplacer ID_YOUTUBE_3 par l'identifiant -->
-        <video src="videos/video0.3.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature3.jpg" width="100%" height="auto"></video>
+        <video src="videos/video3.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature3.png" width="100%" height="auto"></video>
     </div>
     <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
 
@@ -87,8 +86,7 @@ $token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vé
     <p><strong>Au programme :</strong> Architecture du Jardin Blanc (dôme chocolat), manipulation des textures gel, confection du sorbet / biscuit et les mots de conclusion du Chef.</p>
     <div class="video-wrapper">
         <div class="video-shield"></div>
-        <!-- Remplacer ID_YOUTUBE_4 par l'identifiant -->
-        <video src="videos/video0.4.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature4.png" width="100%" height="auto"></video>
+        <video src="videos/video4.mp4" controls controlslist="nodownload" playsinline webkit-playsinline poster="images/miniature4.png" width="100%" height="auto"></video>
     </div>
     <p><em>Note : Pour lire la vidéo, faites un double clic sur le lecteur.</em></p>
 

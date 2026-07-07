@@ -15,9 +15,27 @@ if ($email_client && filter_var($email_client, FILTER_VALIDATE_EMAIL)) {
         $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        // 3. MISE À JOUR BDD : Le client a acheté, on coupe le tunnel de relance !
-        $stmt = $pdo->prepare("UPDATE contacts SET etape_tunnel = 4 WHERE email = :email");
-        $stmt->execute(['email' => $email_client]);
+         // 3. MISE À JOUR BDD : Le client a acheté, on coupe le tunnel !
+        $masterclass_token = null;
+        $lien_masterclass = "";
+
+        if ($type_produit === 'masterclass') {
+            // Génération d'un token unique et sécurisé pour le client
+            $masterclass_token = bin2hex(random_bytes(16));
+            // Construction du lien magique vers ta masterclass
+            $lien_masterclass = "https://guideculinaire.aubergedecharron.fr/masterclass.php?token=" . $masterclass_token;
+
+            // Mise à jour de l'étape du tunnel ET enregistrement du token
+            $stmt = $pdo->prepare("UPDATE contacts SET etape_tunnel = 4, masterclass_token = :token WHERE email = :email");
+            $stmt->execute([
+                'token' => $masterclass_token,
+                'email' => $email_client
+            ]);
+        } else {
+            // Si c'est un autre produit (ex: cadeau), on met juste à jour l'étape du tunnel
+            $stmt = $pdo->prepare("UPDATE contacts SET etape_tunnel = 4 WHERE email = :email");
+            $stmt->execute(['email' => $email_client]);
+        }
 
         // 4. CONFIGURATION DE L'EMAIL SELON LE PRODUIT
         $from = "contact@aubergedecharron.fr"; // À remplacer par ton adresse pro o2switch
@@ -95,15 +113,35 @@ if ($email_client && filter_var($email_client, FILTER_VALIDATE_EMAIL)) {
             $nmessage .= "--" . $uid . "--";
 
             mail($email_client, $subject, $nmessage, $headers);
-        } else {
-            // ENVOI DE LA MASTERCLASS (E-MAIL HTML SIMPLE STANDARD)
-            $headers = "From: " . $from . "\r\n";
-            $headers .= "Reply-To: " . $reply_to . "\r\n";
-            $headers .= "MIME-Version: 1.0\r\n";
-            $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+          } else {
+        // // ENVOI DE LA MASTERCLASS (E-MAIL HTML SIMPLE STANDARD)
+       
+        // 1. Définition du contenu de l'e-mail avec le lien unique
+        $message_html = "
+        <html>
+        <head>
+            <title>Votre accès Masterclass</title>
+        </head>
+        <body style='font-family: Arial, sans-serif; line-height: 1.6; color: #333;'>
+            <h2>Merci pour votre confiance !</h2>
+            <p>Votre paiement pour la <strong>Masterclass Digitale</strong> a bien été validé.</p>
+            <p>Voici votre lien d'accès personnel et exclusif pour visionner vos vidéos :</p>
+            <p style='margin: 20px 0;'>
+                <a href='" . $lien_masterclass . "' style='background-color:#c9a054; color:#fff; padding:12px 25px; text-decoration:none; border-radius:5px; font-weight:bold; display:inline-block;'>Accéder à ma Masterclass</a>
+            </p>
+            <p>À tout de suite en cuisine !<br>L'équipe de l'Auberge de Charron</p>
+        </body>
+        </html>";
 
-            mail($email_client, $subject, $message_html, $headers);
-        }
+        // 2. Configuration des entêtes (générés par ton code d'origine)
+        $headers = "From: " . $from . "\r\n";
+        $headers .= "Reply-To: " . $reply_to . "\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+        // 3. Envoi du mail
+        mail($email_client, $subject, $message_html, $headers);
+    }
 
     } catch (PDOException $e) {
         // Erreur silencieuse ou log

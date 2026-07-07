@@ -1,19 +1,40 @@
 <?php
-// ==========================================
-// SECURITÉ : Vérification du Token magique
-// ==========================================
-// On imagine que le token attendu en BDD est "masterclass_premium_2026"
-// URL d'accès : https://guideculinaire.aubergedecharron.fr/masterclass.php?token=masterclass_premium_2026
+// Inclure la configuration sécurisée de la base de données
+require_once 'db_config.php';
 
-$token_valide = "masterclass_premium_2026"; // À remplacer plus tard par ta vérification en BDD
+// Initialisation de la variable de sécurité
+$acces_autorise = false;
 
-if (!isset($_GET['token']) || $_GET['token'] !== $token_valide) {
-    // Si le token n'est pas bon, on redirige poliment vers l'accueil
-    header('Location: index.html');
-    exit();
+// 1. Vérifier si un token est bien présent dans l'URL
+if (isset($_GET['token']) && !empty($_GET['token'])) {
+    $token_client = $_GET['token'];
+
+    try {
+        // Connexion à la BDD via les variables de db_config.php
+        $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        // Requête SQL pour chercher si ce token existe dans la table contacts
+        $stmt = $pdo->prepare("SELECT id FROM contacts WHERE masterclass_token = :token LIMIT 1");
+        $stmt->execute(['token' => $token_client]);
+       
+        // Si la requête retourne une ligne, le token est valide !
+        if ($stmt->fetch()) {
+            $acces_autorise = true;
+        }
+    } catch (PDOException $e) {
+        // En cas d'erreur de BDD, on bloque par sécurité
+        error_log("Erreur de connexion Masterclass : " . $e->getMessage());
+    }
 }
 
+// 2. Si l'accès n'est pas autorisé, redirection polie vers l'accueil de la boutique
+if (!$acces_autorise) {
+    header('Location: boutique.html');
+    exit();
+}
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>

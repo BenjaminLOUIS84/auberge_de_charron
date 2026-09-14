@@ -65,8 +65,15 @@ if ($lang === 'en') {
     <p>The present Terms and Conditions (T&C) exclusively govern the sales of products and services executed on the website of Auberge de Charron.</p>
     <ul>
         <li><strong>Establishment:</strong> L'Auberge de Charron</li>
+        <li><strong>Company Name:</strong> SARL Louis</li>
+        <li><strong>Legal Form:</strong> SARL with a capital of 1000 euros</li>
+        <li><strong>Head Office Address:</strong> 4 rue de la Mairie, 23700 CHARRON</li>
+        <li><strong>SIRET and RCS:</strong> 942 856 147 R.C.S. Gueret</li>
+        <li><strong>VAT Number:</strong> FR 50 942 856 147</li>
+        <li><strong>Phone Number:</strong> 09 62 18 56 73</li>
+
         <li><strong>Technical / Funnel Contact:</strong> webmaster@aubergedecharron.fr</li>
-        <li><strong>Management / Client Contact:</strong> id2recettes@gmail.com</li>
+        <li><strong>Management / Client Contact:</strong> louisbenetval@orange.fr</li>
     </ul>
 
     <h2>Article 2: Products and Services Sold</h2>
@@ -90,17 +97,30 @@ if ($lang === 'en') {
     </ul>
     <p>Payment is due immediately upon ordering. Payment is made securely via the platforms and payment links provided on the site before redirection.</p>
 
-    <h2>Article 4: Absence of Right of Withdrawal</h2>
+    <h2>Article 4.1: Absence of Right of Withdrawal</h2>
     <p>In accordance with article L.221-28 of the French Consumer Code, the right of withdrawal cannot be exercised for:</p>
     <ul>
         <li><strong>The Masterclass (Digital content not supplied on a tangible medium):</strong> The customer expressly notes and accepts that the execution of the digital content begins immediately after payment validation. By checking the T&C acceptance box, the customer gives their express prior consent for immediate access to the videos and booklet download, and thus expressly waives their 14-day right of withdrawal.</li>
-        <li><strong>The Gift Voucher (Restaurant service catering):</strong> Catering services to be provided on a specified date or period do not benefit from the right of withdrawal. Any purchase of a Gift Voucher is therefore firm, final, and non-refundable.</li>
+        <li><strong>The Gift Voucher (Restaurant service catering):</strong> A 14-day withdrawal period applies to this type of service. The Gift Voucher, having a validity period of 12 months from the date of purchase, ends the withdrawal period as soon as the beneficiary uses the voucher before the 14-day period.</li>
     </ul>
+
+    <h2>Article 4.2: Legal Guarantees (E-commerce Obligation)</h2>
+    <p>In accordance with articles L.217-4 and following of the Consumer Code, 
+        the customer benefits from the legal guarantee of conformity and the guarantee against hidden 
+        defects for products purchased on the site. In case of non-conformity or hidden defect, 
+        
+        the customer may request repair, replacement, or refund of the product in accordance with the legal provisions in force.</p>
 
     <h2>Article 5: Data Protection and Proof of Acceptance</h2>
     <p>In order to secure transactions and protect against abusive bank chargebacks or disputes, Auberge de Charron applies electronic evidence regulations. By checking the acceptance box of these T&C before finalizing the order, the customer expressly accepts that their <strong>IP address</strong>, as well as the <strong>precise date and time of their consent</strong>, will be securely recorded in the website's database.</p>
     <p>This technical data will be legally binding as proof of the customer's consent and waiver of the right of withdrawal. In accordance with GDPR regulations, this data is kept solely for legal proof purposes and will under no circumstances be assigned, sold, or shared with third parties.</p>
 
+    <h2>Article 6: Applicable Law and Competent Jurisdiction</h2>
+    <p>These T&C are governed by French law.
+        In the event of a dispute relating to the interpretation or execution of these T&C, 
+        the customer must first attempt to resolve the dispute amicably by contacting Auberge de Charron. 
+        Failing that, French courts will have exclusive jurisdiction.</p>
+        
 <?php else: ?>
     <!-- ==================== VERSION FRANÇAISE ==================== -->
     <h1>CONDITIONS GÉNÉRALES DE VENTE (CGV)</h1>
@@ -110,8 +130,15 @@ if ($lang === 'en') {
     <p>Les présentes Conditions Générales de Vente (CGV) régissent de manière exclusive les ventes de produits et services effectuées sur le site internet de l'Auberge de Charron.</p>
     <ul>
         <li><strong>Établissement :</strong> L'Auberge de Charron</li>
+        <li><strong>Raison sociale :</strong> SARL Louis</li>
+        <li><strong>Forme juridique :</strong> SARL au capital de 1000 euros</li>
+        <li><strong>Adresse du siège social :</strong> 4 rue de la Mairie, 23700 CHARRON</li>
+        <li><strong>SIRET et RCS:</strong>942 856 147 R.C.S. Gueret</li>
+        <li><strong>Numéro de TVA :</strong> FR 50 942 856 147</li>
+        <li><strong>Numero de téléphone :</strong> 09 62 18 56 73</li>
+
         <li><strong>Contact Technique / Tunnel :</strong> webmaster@aubergedecharron.fr</li>
-        <li><strong>Contact Gestion / Client :</strong> id2recettes@gmail.com</li>
+        <li><strong>Contact Gestion / Client :</strong> louisbenetval@orange.fr</li>
     </ul>
 
     <h2>Article 2 : Produits et Services vendus</h2>
@@ -135,17 +162,29 @@ if ($lang === 'en') {
     </ul>
     <p>Le paiement est exigible immédiatement à la commande. Le règlement s'effectue de manière sécurisée via les plateformes et liens de paiement mis à disposition sur le site avant la redirection.</p>
 
-    <h2>Article 4 : Absence de Droit de Rétractation</h2>
+    <h2>Article 4.1 : Absence de Droit de Rétractation</h2>
     <p>Conformément à l’article L.221-28 du Code de la consommation français, le droit de rétractation ne peut pas être exercé pour :</p>
     <ul>
         <li><strong>La Masterclass (Contenu numérique non fourni sur support matériel) :</strong> Le client note et accepte expressément que l'exécution du contenu numérique commence immédiatement après la validation de son paiement. En cochant la case d'acceptation des CGV, le client donne son accord préalable exprès pour l'accès immédiat aux vidéos et au téléchargement du livret, et renonce ainsi expressément à son droit de rétractation de 14 jours.</li>
-        <li><strong>Le Bon Cadeau (Prestations de services de restauration) :</strong> Les services de restauration devant être fournis à une date ou selon une périodicité spécifiée ne bénéficient pas du droit de rétractation. Tout achat de Bon Cadeau est donc ferme, définitif et non remboursable.</li>
+        <li><strong>Le Bon Cadeau (Prestations de services de restauration) :</strong>Un délai de retractation de 14 jours s'applique à ce type de prestation. Le Bon Cadeau ayant une durée de validité de 12 mois à compter de la date d'achat, le délai de rétractation prend fin dès lors que le bénéficiaire utilise le bon avant le délai de 14 jours.</li>
     </ul>
+
+    <h2>Article 4.2 : Garanties légales (Obligation e-commerce)</h2>
+    <p>Conformément aux articles L.217-4 et suivants du Code de la consommation, 
+        le client bénéficie de la garantie légale de conformité et de la garantie contre les vices cachés pour les produits achetés sur le site. 
+        En cas de non-conformité ou de vice caché, le client peut demander la réparation, le remplacement ou 
+        le remboursement du produit conformément aux dispositions légales en vigueur.</p>
 
     <h2>Article 5 : Protection des données et Preuve d'acceptation</h2>
     <p>Afin de sécuriser les transactions et de se prémunir contre les litiges ou contestations bancaires abusives, l'Auberge de Charron applique la réglementation de la preuve électronique. En cochant la case d'acceptation des présentes CGV avant de finaliser la commande, le client accepte expressément que son <strong>adresse IP</strong>, ainsi que la <strong>date et l'heure précises de son consentement</strong>, soient enregistrées de manière sécurisée dans la base de données du site.</p>
     <p>Les données techniques feront foi et seront opposables juridiquement comme preuve du consentement du client et de sa renonciation au droit de rétractation. Conformément à la réglementation RGPD, ces données sont conservées uniquement à des fins de preuve légale et ne seront en aucun cas cédées, vendues ou partagées avec des tiers.</p>
-<?php endif; ?>
+
+    <h2>Article 6 : Loi applicable et juridiction compétente</h2>
+    <p>Les présentes CGV sont régies par le droit français. 
+        En cas de litige relatif à l'interprétation ou à l'exécution des présentes CGV, 
+        le client doit d'abord tenter de résoudre le litige à l'amiable en s'adressant à l'Auberge de Charron. 
+        À défaut, les tribunaux français seront seuls compétents.</p>  
+    <?php endif; ?>
 
 </body>
 </html>

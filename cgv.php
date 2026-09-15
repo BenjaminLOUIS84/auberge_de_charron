@@ -183,7 +183,8 @@ if ($lang === 'en') {
     <p>Les présentes CGV sont régies par le droit français. 
         En cas de litige relatif à l'interprétation ou à l'exécution des présentes CGV, 
         le client doit d'abord tenter de résoudre le litige à l'amiable en s'adressant à l'Auberge de Charron. 
-        À défaut, les tribunaux français seront seuls compétents.</p>  
+        À défaut, les tribunaux français seront seuls compétents.</p><br>
+
     <?php endif; ?>
 
 </body>
